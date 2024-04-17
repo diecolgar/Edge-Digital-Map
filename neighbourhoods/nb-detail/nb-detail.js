@@ -47,35 +47,76 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
   
-    // Función para cargar y procesar el JSON de booths
-    function loadBooths() {
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'booths/booths-db.json', true);
-      xhr.onload = function() {
-        if (xhr.status === 200) {
-          var data = JSON.parse(xhr.responseText);
-          var area = getQueryParam('nb'); // Obten el parámetro de la URL
-          if (area) {
-            var filteredBooths = data.entries.filter(function(entry) {
-              return entry.area === area;
-            });
-            displayBooths(filteredBooths);
-          } else {
-            // Manejar el caso en que no se especifique el área en la URL
-            console.error('No se especificó el área en la URL.');
-          }
+// Función para cargar y procesar el JSON de booths y hitboxes
+function loadBooths() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'booths/booths-db.json', true);
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        var data = JSON.parse(xhr.responseText);
+        var area = getQueryParam('nb'); // Obtiene el parámetro de la URL
+        if (area) {
+          var filteredBooths = data.entries.filter(entry => entry.area === area);
+          displayBooths(filteredBooths);
+          loadHitboxes(filteredBooths); // Cargar los hitboxes en el SVG
         } else {
-          // Manejar errores al cargar el JSON
-          console.error('No se pudo cargar el archivo JSON.');
+          console.error('No se especificó el área en la URL.');
         }
-      };
-      xhr.onerror = function() {
-        // Manejar errores de conexión
-        console.error('Error de conexión al intentar cargar el archivo JSON.');
-      };
-      xhr.send();
-    }
+      } else {
+        console.error('No se pudo cargar el archivo JSON.');
+      }
+    };
+    xhr.onerror = function() {
+      console.error('Error de conexión al intentar cargar el archivo JSON.');
+    };
+    xhr.send();
+  }
+  
+// Función para agregar los hitboxes al SVG y envolverlos en un anchor con href que contiene el ID del booth
+function loadHitboxes(booths) {
+    var svgElement = document.getElementById('hitbox-map'); // Asegúrate de que este es el ID correcto del SVG en tu HTML
+    svgElement.innerHTML = ''; // Limpiar cualquier path existente antes de agregar nuevas
+    booths.forEach(function(booth) {
+      if (booth.hitbox && booth.id) { // Asegurarse de que el booth tiene hitbox e ID
+        var anchor = document.createElementNS('http://www.w3.org/2000/svg', 'a'); // Crear el elemento anchor
+        anchor.setAttribute('href', `booth/booth.html?id=${booth.id}`); // Usar el ID del booth para construir la URL
+        anchor.setAttribute('xlink:href', `booths/booth.html?id=${booth.id}`); // Para compatibilidad con navegadores más antiguos
+  
+        var newElement = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        // Extraer el atributo 'd' del hitbox HTML string usando DOMParser
+        newElement.setAttribute('d', new DOMParser().parseFromString(booth.hitbox, 'text/html').body.firstChild.getAttribute('d'));
+        newElement.setAttribute('opacity', '0.01');
+        newElement.setAttribute('fill', 'white');
+  
+        anchor.appendChild(newElement); // Agregar el path al anchor
+        svgElement.appendChild(anchor); // Agregar el anchor al SVG
+      }
+    });
+  }  
   
     // Carga los booths cuando la página está lista
     loadBooths();
 });
+
+
+// Función para obtener el valor de un parámetro específico de la URL
+function obtenerParametroURL(nombre) {
+    nombre = nombre.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + nombre + '(=([^&#]*)|&|#|$)'),
+        resultados = regex.exec(window.location.href);
+    if (!resultados) return null;
+    if (!resultados[2]) return '';
+    return decodeURIComponent(resultados[2].replace(/\+/g, ' '));
+}
+
+// Función para cambiar el 'src' de la imagen basada en el parámetro 'nb'
+function cambiarSrcImagen() {
+    var parametroNB = obtenerParametroURL('nb'); // Obtiene el valor del parámetro 'nb'
+    if (parametroNB) {
+        var imagen = document.querySelector('#interactive-map'); // Selecciona la imagen que quieres cambiar
+        imagen.src = "../../assets/neighbourhoods/nb_" + parametroNB + ".png"; // Cambia el src de la imagen
+    }
+}
+
+// Ejecutar la función al cargar la página
+window.onload = cambiarSrcImagen;
