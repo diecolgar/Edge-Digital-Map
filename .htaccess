@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# Habilitar la reescritura de URLs
+RewriteBase /
+
+# Asegurarse de que no se reescriban solicitudes a archivos o directorios reales
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redireccionar para ocultar directorios repetidos (ejemplo: /dir/dir.html a /dir)
+RewriteCond %{REQUEST_URI} ^(.+)/([^/]+)$
+RewriteCond %{DOCUMENT_ROOT}%1/%2.html -f
+RewriteRule ^(.+)/([^/]+)$ $1 [R=302,L]
+
+# Permitir que las URL sin .html accedan a los archivos .html correspondientes
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# Redirección permanente para eliminar la extensión .html si alguien accede directamente con .html
+RewriteCond %{THE_REQUEST} \s(.+?)\.html[\s?] [NC]
+RewriteRule ^ %1 [R=302,L,NE]

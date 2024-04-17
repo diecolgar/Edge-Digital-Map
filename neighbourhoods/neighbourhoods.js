@@ -1,7 +1,7 @@
 //#region accordion logic
 
 function toggleDescription(event) {
-    event.preventDefault(); // Previene la navegación del enlace
+    // event.preventDefault();
   
     // Encuentra la descripción y la flecha del elemento actual
     var currentDescription = this.querySelector('.keyThemesDescription');
