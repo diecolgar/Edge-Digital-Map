@@ -2,9 +2,10 @@
 
 .booth-selector {
     display: flex;
+    align-items: center;
     padding: 1rem;
     width: auto;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     text-decoration: none;
     color: #323232;
     font-weight: 700;
@@ -20,6 +21,7 @@
 
 .booth-arrow {
     margin-left: auto;
+    max-width: 0.9rem;
 }
 
 .booth-separator {
@@ -28,4 +30,23 @@
     background-color: #DFD7CC;
     margin: 0 1rem;
     width: auto;
+}
+
+.service-entry {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    width: auto;
+    /* font-size: 0.9rem; */
+    text-decoration: none;
+    color: #323232;
+    font-weight: 700;
+}
+
+.service-title {
+    margin-left: 1rem;
+}
+
+.service-icon {
+    width: max-content;
 }

@@ -1,0 +1,112 @@
+{
+    "entries": [
+      {
+        "title": "Charging Spot",
+        "icon": "charging-spot.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      },
+      {
+        "title": "Donut Bar",
+        "icon": "donut-bar.svg",
+        "areas": [
+            "cx",
+            ""
+          ]
+      },
+      {
+        "title": "Espresso Bar",
+        "icon": "espresso-bar.svg",
+        "areas": [
+            "pe",
+            ""
+          ]
+      },
+      {
+        "title": "Food & Beverage",
+        "icon": "food-and-beverage.svg",
+        "areas": [
+            "te",
+            "cs",
+            "cx",
+            "pe",
+            "op"
+          ]
+      },
+      {
+        "title": "Fresh Juice Bar",
+        "icon": "fresh-juice-bar.svg",
+        "areas": [
+            "op",
+            ""
+          ]
+      },
+      {
+        "title": "Fresh Smoothie Bar",
+        "icon": "fresh-smoothie-bar.svg",
+        "areas": [
+            "cs",
+            ""
+          ]
+      },
+      {
+        "title": "Front Desk",
+        "icon": "front-desk.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      },
+      {
+        "title": "Gelato Bar",
+        "icon": "gelato-bar.svg",
+        "areas": [
+            "te",
+            ""
+          ]
+      },
+      {
+        "title": "IT Station",
+        "icon": "it-station.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      },
+      {
+        "title": "Lounge Areas",
+        "icon": "lounge-areas.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      },
+      {
+        "title": "Meeting Rooms",
+        "icon": "meeting-rooms.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      },
+      {
+        "title": "Nitro Cold Brew Bar",
+        "icon": "nitro-cold-brew-bar.svg",
+        "areas": [
+            "cx",
+            ""
+          ]
+      },
+      {
+        "title": "Restrooms",
+        "icon": "restrooms.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      }
+    ]
+  }
+  
