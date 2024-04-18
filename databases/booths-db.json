@@ -3,7 +3,8 @@
       {
         "id": "te01",
         "area": "te",
-        "title": "Spatial Computing & Immersion",
+        "number": "01",
+        "title": "TE 01 Spatial Computing & Immersion",
         "description": "Enrich your XR technology with Immersive Computing by GenAI",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
         "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
@@ -45,7 +46,8 @@
       {
         "id": "te02",
         "area": "te",
-        "title": "MIT CSAIL",
+        "number": "02",
+        "title": "TE 02 MIT CSAIL",
         "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
         "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>",
@@ -129,7 +131,8 @@
       {
         "id": "cx02",
         "area": "cx",
-        "title": "MIT CSAIL",
+        "number": "02",
+        "title": "CX 02 MIT CSAIL",
         "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
         "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>",
@@ -169,9 +172,10 @@
         ]
       },
       {
-        "id": "te01",
-        "area": "te",
-        "title": "Spatial Computing & Immersion",
+        "id": "cx03",
+        "area": "cx",
+        "number": "03",
+        "title": "CX 03 Spatial Computing & Immersionnn",
         "description": "Enrich your XR technology with Immersive Computing by GenAI",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
         "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
@@ -213,7 +217,8 @@
       {
         "id": "pe04",
         "area": "pe",
-        "title": "MIT CSAIL",
+        "number": "04",
+        "title": "PE 04 MIT CSAIL",
         "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
         "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>",

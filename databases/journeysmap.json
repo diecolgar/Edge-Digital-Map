@@ -1,0 +1,31 @@
+{
+    "journeys": [
+      {
+        "id": "00",
+        "title": "(Gen)AI Path",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"},
+          {"id": "te03", "type": "nonselectable"},
+          {"id": "cx01", "type": "highlight"},
+          {"id": "cx02", "type": "nonselectable"},
+          {"id": "cx03", "type": "highlight"},
+          {"id": "pe04", "type": "highlight"}
+        ]
+      },
+      {
+        "id": "01",
+        "title": "Consumer Products & Rt",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "highlight"},
+          {"id": "te03", "type": "highlight"},
+          {"id": "cs02", "type": "nonselectable"},
+          {"id": "cx01", "type": "nonselectable"},
+          {"id": "cx02", "type": "nonselectable"}
+        ]
+      }
+    ]
+  }
+  
+  

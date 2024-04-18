@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css">
 <link rel="stylesheet" href="../neighbourhoods.css">
 <link rel="stylesheet" href="nb-detail.css">
+<link rel="stylesheet" href="journey.css">
 <link rel="stylesheet" href="../../general.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,7 @@
 
 <div id="homeContainer">
 
-    <div id="homeTitle">
+  <a id="homeTitle" href="/">
         <svg xmlns="http://www.w3.org/2000/svg" width="126" height="32" viewBox="0 0 126 32" fill="none">
             <g clip-path="url(#clip0_3107_47704)">
             <path d="M0.0732422 31.3007V0.518158H18.1808V4.22942H4.46497V13.4175H15.2383V17.1287H4.46497V27.5857H20.5827V31.297H0.0769127L0.0732422 31.3007Z" fill="#F1EEEA"/>
@@ -30,7 +31,7 @@
             </clipPath>
             </defs>
             </svg>
-    </div>
+    </a>
 
     <div id="navigator">
         <div id="navigationBar">
@@ -71,10 +72,13 @@
 
             </div>
             <div id="content-title-text">
-              
+
             </div>
           </div>
           <div id="dynamic-content-container">
+
+          </div>
+          <div id="path-content-container">
 
           </div>
           <div id="static-content-container">
@@ -87,7 +91,8 @@
 </div>
 
 
-
 <script src="nb-detail.js"></script>
+<script src="journey-gen.js"></script>
+
 </body>
 </html>

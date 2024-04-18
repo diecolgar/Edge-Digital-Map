@@ -74,12 +74,10 @@ function updateContentTitle(nbParam) {
 // Esta función construye el HTML para cada booth y lo agrega al content-container
 function displayBooths(booths) {
     var container = document.getElementById('dynamic-content-container');
-    // container.innerHTML = ''; // Comentado para evitar limpiar el contenedor cada vez que se llama a esta función
 
     booths.forEach(function(booth) {
         var boothLink = document.createElement('a');
         boothLink.className = 'booth-selector simple';
-        // Actualizamos el href para apuntar a la URL deseada con el id del booth
         boothLink.href = `booths/booth?id=${booth.id}`;
 
         var id = document.createElement('div');
@@ -105,7 +103,6 @@ function displayBooths(booths) {
     });
 } 
 
-// Función para construir el HTML para cada servicio y agregarlo al static-content-container
 function displayServices(services) {
   var container = document.getElementById('static-content-container');
   services.forEach(function(service) {
@@ -114,7 +111,7 @@ function displayServices(services) {
       
       var icon = document.createElement('img');
       icon.className = 'service-icon';
-      icon.src = '../../assets/services/' + service.icon; // Asegúrate de que la ruta es correcta
+      icon.src = '../../assets/services/' + service.icon;
       serviceElement.appendChild(icon);
 
       var title = document.createElement('div');
@@ -130,28 +127,26 @@ function displayServices(services) {
   });
 }
 
-// Función para construir el HTML para cada autor y agregarlo al static-content-container
+// --- Only if Theathre
 function displayAuthors(authors) {
     var container = document.getElementById('static-content-container');
     authors.forEach(function(author) {
         var authorElement = document.createElement('div');
         authorElement.className = 'author-entry';
 
-        // Crear un contenedor para el tiempo y el título
         var timeTitleContainer = document.createElement('div');
         timeTitleContainer.className = 'time-title-container';
 
         var time = document.createElement('div');
         time.className = 'author-time';
         time.textContent = author.time;
-        timeTitleContainer.appendChild(time); // Añadir tiempo al contenedor de tiempo y título
+        timeTitleContainer.appendChild(time); 
 
         var title = document.createElement('div');
         title.className = 'author-title';
         title.textContent = author.title;
-        timeTitleContainer.appendChild(title); // Añadir título al contenedor de tiempo y título
+        timeTitleContainer.appendChild(title); 
 
-        // Añadir el contenedor de tiempo y título al elemento del autor
         authorElement.appendChild(timeTitleContainer);
 
         var description = document.createElement('div');
@@ -159,27 +154,24 @@ function displayAuthors(authors) {
         description.textContent = author.description;
         authorElement.appendChild(description);
 
-        // Crear un contenedor para la imagen y el nombre del autor
         var authorInfoContainer = document.createElement('div');
         authorInfoContainer.className = 'author-info';
 
         var picture = document.createElement('img');
         picture.className = 'author-picture';
         picture.src = '../../assets/talkers/' + author.picture;
-        authorInfoContainer.appendChild(picture); // Añadir imagen al contenedor de información del autor
+        authorInfoContainer.appendChild(picture);
 
         var name = document.createElement('div');
         name.className = 'author-name';
         name.textContent = author.author;
-        authorInfoContainer.appendChild(name); // Añadir nombre al contenedor de información del autor
+        authorInfoContainer.appendChild(name); 
 
-        // Añadir el contenedor de información del autor al elemento del autor
+        
         authorElement.appendChild(authorInfoContainer);
 
-        // Añadir el elemento del autor al contenedor principal
         container.appendChild(authorElement);
 
-        // Añadir un separador entre elementos del autor
         var separator = document.createElement('div');
         separator.className = 'booth-separator';
         container.appendChild(separator);
@@ -189,16 +181,15 @@ function displayAuthors(authors) {
 // Función para cargar los booths desde booths-db.json
 function loadBooths(nbParam) {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'booths/booths-db.json', true);
+  xhr.open('GET', '../../databases/booths-db.json', true);
   xhr.onload = function() {
       if (xhr.status === 200) {
           var boothsData = JSON.parse(xhr.responseText);
-          // Asegúrate de que utilizas 'area' en lugar de 'areas' si ese es el nombre de tu propiedad en el JSON
           var filteredBooths = boothsData.entries.filter(function(booth) {
               return booth.area === nbParam;
           });
           displayBooths(filteredBooths);
-          loadHitboxes(filteredBooths); // Si necesitas cargar hitboxes
+          loadHitboxes(filteredBooths);
       } else {
           console.error('No se pudo cargar el archivo JSON de booths.');
       }
@@ -209,10 +200,9 @@ function loadBooths(nbParam) {
   xhr.send();
 }
 
-// Función para cargar los servicios desde services.json
 function loadServices(nbParam) {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'booths/services.json', true);
+  xhr.open('GET', '../../databases/services.json', true);
   xhr.onload = function() {
       if (xhr.status === 200) {
           var servicesData = JSON.parse(xhr.responseText);
@@ -230,10 +220,10 @@ function loadServices(nbParam) {
   xhr.send();
 }
 
-// Función para cargar la lista de autores y mostrarlos en el contenedor
+// --- Only if Theathre
 function loadAuthors() {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'booths/talks.json', true); // Asegúrate de que la URL es correcta
+    xhr.open('GET', '../../databases/talks.json', true); 
     xhr.onload = function() {
         if (xhr.status === 200) {
             var authorsData = JSON.parse(xhr.responseText);
@@ -248,7 +238,6 @@ function loadAuthors() {
     xhr.send();
 }
   
-// Función para agregar los hitboxes al SVG y envolverlos en un anchor con href que contiene el ID del booth
 function loadHitboxes(booths) {
     var svgElement = document.getElementById('hitbox-map'); // Asegúrate de que este es el ID correcto del SVG en tu HTML
     svgElement.innerHTML = ''; // Limpiar cualquier path existente antes de agregar nuevas
@@ -270,25 +259,12 @@ function loadHitboxes(booths) {
     });
   }
 
-
-// Función para obtener el valor de un parámetro específico de la URL
-function obtenerParametroURL(nombre) {
-    nombre = nombre.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + nombre + '(=([^&#]*)|&|#|$)'),
-        resultados = regex.exec(window.location.href);
-    if (!resultados) return null;
-    if (!resultados[2]) return '';
-    return decodeURIComponent(resultados[2].replace(/\+/g, ' '));
-}
-
-// Función para cambiar el 'src' de la imagen basada en el parámetro 'nb'
 function cambiarSrcImagen() {
-    var parametroNB = obtenerParametroURL('nb'); // Obtiene el valor del parámetro 'nb'
+    var parametroNB = getQueryParam('nb');
     if (parametroNB) {
-        var imagen = document.querySelector('#interactive-map'); // Selecciona la imagen que quieres cambiar
-        imagen.src = "../../assets/neighbourhoods/nb_" + parametroNB + ".png"; // Cambia el src de la imagen
+        var imagen = document.querySelector('#interactive-map'); 
+        imagen.src = "../../assets/neighbourhoods/nb_" + parametroNB + ".png"; 
     }
 }
 
-// Ejecutar la función al cargar la página
 window.onload = cambiarSrcImagen;

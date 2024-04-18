@@ -1,0 +1,19 @@
+.journey-booth {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: auto;
+    font-size: 1rem;
+}
+
+.path-booth-preview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.path-booth-info {
+    display: flex;
+    align-items: center;
+}
