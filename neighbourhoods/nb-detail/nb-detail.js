@@ -265,6 +265,19 @@ function cambiarSrcImagen() {
         var imagen = document.querySelector('#interactive-map'); 
         imagen.src = "../../assets/neighbourhoods/nb_" + parametroNB + ".png"; 
     }
+    if ((parametroNB === 'ai') || (parametroNB === 'th')) {
+        document.querySelector('.nb-interactive-label').style.display = 'none'
+        document.querySelector('.nb-no-interactive-label').style.display = 'flex'
+    }
 }
 
+// function setMapLabel() {
+//     var parametroNB = getQueryParam('nb');
+//     if (parametroNB === 'ai') {
+//         document.querySelector('.nb-interactive-label').style.display = 'none'
+//         document.querySelector('.nb-no-interactive-label').style.display = 'flex'
+//     }
+// }
+
 window.onload = cambiarSrcImagen;
+// window.onload = setMapLabel;
