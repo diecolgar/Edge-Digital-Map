@@ -37,6 +37,7 @@
 
 #map-label {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #EAE7E3;
     width: 100%;
@@ -183,7 +184,8 @@
   }
 
   .nb-icon {
-    min-width: max-content
+    min-width: max-content;
+    max-width: 1.5rem;
   }
 
 

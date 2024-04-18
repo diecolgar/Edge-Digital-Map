@@ -1,4 +1,4 @@
-
+/* Booth Selectors */
 
 .booth-selector {
     display: flex;
@@ -32,6 +32,28 @@
     width: auto;
 }
 
+/* Title */
+
+#content-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#content-title-text {
+    font-weight: 700;
+}
+
+#content-title-icon {
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Services */
+
 .service-entry {
     display: flex;
     padding: 1rem;
@@ -49,4 +71,49 @@
 
 .service-icon {
     width: max-content;
+}
+
+/* Authors */
+
+.author-entry {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: auto;
+    /* font-size: 0.9rem; */
+    text-decoration: none;
+    color: #323232;
+    font-weight: 700;
+    gap: 1rem;
+}
+
+.time-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.author-description {
+    font-weight: 300;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: max-content;
+    padding: 0.2rem;
+
+}
+
+.author-picture {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
+
+.author-name {
+    padding-right: 1rem;
+    font-size: 0.75rem;
 }

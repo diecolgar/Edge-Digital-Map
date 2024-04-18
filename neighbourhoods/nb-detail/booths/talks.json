@@ -1,0 +1,19 @@
+{
+    "entries": [
+      {
+        "title": "Talk Title",
+        "time": "11.30 AM",
+        "author": "Any Author",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "picture": "any-author.png"
+      },
+      {
+        "title": "Talk Title 2",
+        "time": "12.30 AM",
+        "author": "Any Author",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "picture": "any-author.png"
+      }
+    ]
+  }
+  
