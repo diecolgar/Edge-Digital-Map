@@ -79,6 +79,7 @@ body {
   flex-direction: column;
   gap: 1.5rem;
   padding: 1.5rem 2rem 1.5rem 2rem;
+  z-index: 10;
 }
 
 #contentTitle {
@@ -119,6 +120,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
+
 }
 
 #homeVisual > img {
