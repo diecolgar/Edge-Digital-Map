@@ -4,20 +4,13 @@
         "id": "te01",
         "area": "te",
         "number": "01",
-        "title": "TE 01 Spatial Computing & Immersion",
+        "color": "#322E81",
+        "type": "collaborator",
+        "title": "Spatial Computing & Immersion",
         "description": "Enrich your XR technology with Immersive Computing by GenAI",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
         "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "about": {
-          "summary": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-          "benefits": [
-            "Understanding spatial computing opportunities",
-            "Market trends",
-            "Use cases",
-            "BCG offerings",
-            "Bringing these technologies to life in your organization"
-          ]
-        },
+        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
         "relatedIndustries": [
           "Industrial Goods",
           "Consumer Products & Retail",
@@ -47,20 +40,13 @@
         "id": "te02",
         "area": "te",
         "number": "02",
-        "title": "TE 02 MIT CSAIL",
+        "color": "#322E81",
+        "type": "collaborator",
+        "title": "MIT CSAIL",
         "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>",
-        "about": {
-          "summary": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-          "benefits": [
-            "Understanding spatial computing opportunities",
-            "Market trends",
-            "Use cases",
-            "BCG offerings",
-            "Bringing these technologies to life in your organization"
-          ]
-        },
+        "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
+        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
         "relatedIndustries": [
           "Industrial Goods",
           "Consumer Products & Retail",
@@ -93,16 +79,7 @@
         "description": "Enrich your XR technology with Immersive Computing by GenAI",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
         "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "about": {
-          "summary": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-          "benefits": [
-            "Understanding spatial computing opportunities",
-            "Market trends",
-            "Use cases",
-            "BCG offerings",
-            "Bringing these technologies to life in your organization"
-          ]
-        },
+        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
         "relatedIndustries": [
           "Industrial Goods",
           "Consumer Products & Retail",
@@ -132,20 +109,13 @@
         "id": "cx02",
         "area": "cx",
         "number": "02",
-        "title": "CX 02 MIT CSAIL",
+        "color": "#EFAE00",
+        "type": "startup",
+        "title": "MIT CSAIL",
         "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>",
-        "about": {
-          "summary": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-          "benefits": [
-            "Understanding spatial computing opportunities",
-            "Market trends",
-            "Use cases",
-            "BCG offerings",
-            "Bringing these technologies to life in your organization"
-          ]
-        },
+        "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
+        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
         "relatedIndustries": [
           "Industrial Goods",
           "Consumer Products & Retail",
@@ -175,20 +145,13 @@
         "id": "cx03",
         "area": "cx",
         "number": "03",
-        "title": "CX 03 Spatial Computing & Immersionnn",
+        "color": "#EFAE00",
+        "type": "normal",
+        "title": "Spatial Computing & Immersionnn",
         "description": "Enrich your XR technology with Immersive Computing by GenAI",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
         "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "about": {
-          "summary": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-          "benefits": [
-            "Understanding spatial computing opportunities",
-            "Market trends",
-            "Use cases",
-            "BCG offerings",
-            "Bringing these technologies to life in your organization"
-          ]
-        },
+        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
         "relatedIndustries": [
           "Industrial Goods",
           "Consumer Products & Retail",
@@ -218,20 +181,49 @@
         "id": "pe04",
         "area": "pe",
         "number": "04",
+        "color": "#FF54D4",
+        "type": "normal",
         "title": "PE 04 MIT CSAIL",
         "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
         "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>",
-        "about": {
-          "summary": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-          "benefits": [
-            "Understanding spatial computing opportunities",
-            "Market trends",
-            "Use cases",
-            "BCG offerings",
-            "Bringing these technologies to life in your organization"
-          ]
-        },
+        "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
+        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
+        "relatedIndustries": [
+          "Industrial Goods",
+          "Consumer Products & Retail",
+          "Energy",
+          "Health Care",
+          "Insurance",
+          "Public Sector",
+          "Financial Institutions",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          {
+            "name": "Dutch MacDonald",
+            "role": "Contact Person"
+          },
+          {
+            "name": "Kristi Woolsey",
+            "role": "Contact Person"
+          },
+          {
+            "name": "Tibor Merey",
+            "role": "Contact Person"
+          }
+        ]
+      },
+      {
+        "id": "op04",
+        "area": "op",
+        "number": "04",
+        "color": "#FF6000",
+        "type": "normal",
+        "title": "PE 04 MIT CSAIL",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
+        "highlight": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
+        "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
+        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
         "relatedIndustries": [
           "Industrial Goods",
           "Consumer Products & Retail",

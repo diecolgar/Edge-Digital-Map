@@ -1,7 +1,7 @@
 {
     "journeys": [
       {
-        "id": "00",
+        "id": "ai",
         "title": "(Gen)AI Path",
         "booths": [
           {"id": "te01", "type": "highlight"},
@@ -10,7 +10,8 @@
           {"id": "cx01", "type": "highlight"},
           {"id": "cx02", "type": "nonselectable"},
           {"id": "cx03", "type": "highlight"},
-          {"id": "pe04", "type": "highlight"}
+          {"id": "pe04", "type": "highlight"},
+          {"id": "op04", "type": "highlight"}
         ]
       },
       {

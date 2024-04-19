@@ -27,49 +27,6 @@ function getQueryParam(param) {
   }
   return null;
 }
-
-function updateContentTitle(nbParam) {
-    var titleIcon = document.getElementById('content-title-icon');
-    var titleText = document.getElementById('content-title-text');
-
-    var iconPath = '';
-    var text = '';
-
-    switch (nbParam) {
-        case 'te':
-            iconPath = 'icon_te.svg';
-            text = 'Technology';
-            break;
-        case 'cs':
-            iconPath = 'icon_cs.svg';
-            text = 'Future of Sustainability';
-            break;
-        case 'cx':
-            iconPath = 'icon_cx.svg';
-            text = 'Customer Engagement';
-            break;
-        case 'pe':
-            iconPath = 'icon_pe.svg';
-            text = 'Strategy, People and Organization';
-            break;
-        case 'op':
-            iconPath = 'icon_op.svg';
-            text = 'Operations';
-            break;
-        case 'ai': // Assuming this is the (Gen)AI Path from the last screenshot
-            iconPath = 'icon_ai.png';
-            text = '(Gen)AI Path';
-            break;
-        case 'th': // Assuming this is the (Gen)AI Path from the last screenshot
-        iconPath = 'icon_th.svg';
-        text = 'Micro-Theater';
-        break;
-    }
-
-    // Actualiza el SRC del icono y el texto
-    titleIcon.style.backgroundImage = 'url(../../assets/neighbourhoods/' + iconPath + ')'; // Asegúrate de que la ruta es correcta
-    titleText.textContent = text;
-}
   
 // Esta función construye el HTML para cada booth y lo agrega al content-container
 function displayBooths(booths) {
@@ -259,25 +216,60 @@ function loadHitboxes(booths) {
     });
   }
 
+
+  function updateContentTitle(nbParam) {
+    var titleIcon = document.getElementById('content-title-icon');
+    var titleText = document.getElementById('content-title-text');
+
+    var iconPath = '';
+    var text = '';
+
+    switch (nbParam) {
+        case 'te':
+            iconPath = 'icon_te.svg';
+            text = 'Technology';
+            break;
+        case 'cs':
+            iconPath = 'icon_cs.svg';
+            text = 'Future of Sustainability';
+            break;
+        case 'cx':
+            iconPath = 'icon_cx.svg';
+            text = 'Customer Engagement';
+            break;
+        case 'pe':
+            iconPath = 'icon_pe.svg';
+            text = 'Strategy, People and Organization';
+            break;
+        case 'op':
+            iconPath = 'icon_op.svg';
+            text = 'Operations';
+            break;
+        case 'ai': // Assuming this is the (Gen)AI Path from the last screenshot
+            iconPath = 'icon_ai.png';
+            text = '(Gen)AI Path';
+            break;
+        case 'th': // Assuming this is the (Gen)AI Path from the last screenshot
+        iconPath = 'icon_th.svg';
+        text = 'Micro-Theater';
+        break;
+    }
+
+    // Actualiza el SRC del icono y el texto
+    titleIcon.style.backgroundImage = 'url(../../assets/neighbourhoods/' + iconPath + ')'; // Asegúrate de que la ruta es correcta
+    titleText.textContent = text;
+}
+  
 function cambiarSrcImagen() {
     var parametroNB = getQueryParam('nb');
     if (parametroNB) {
         var imagen = document.querySelector('#interactive-map'); 
         imagen.src = "../../assets/neighbourhoods/nb_" + parametroNB + ".png"; 
     }
-    if ((parametroNB === 'ai') || (parametroNB === 'th')) {
+    if (parametroNB === 'th') {
         document.querySelector('.nb-interactive-label').style.display = 'none'
         document.querySelector('.nb-no-interactive-label').style.display = 'flex'
     }
 }
 
-// function setMapLabel() {
-//     var parametroNB = getQueryParam('nb');
-//     if (parametroNB === 'ai') {
-//         document.querySelector('.nb-interactive-label').style.display = 'none'
-//         document.querySelector('.nb-no-interactive-label').style.display = 'flex'
-//     }
-// }
-
 window.onload = cambiarSrcImagen;
-// window.onload = setMapLabel;
