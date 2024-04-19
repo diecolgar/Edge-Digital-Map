@@ -35,7 +35,7 @@ function displayBooths(booths) {
     booths.forEach(function(booth) {
         var boothLink = document.createElement('a');
         boothLink.className = 'booth-selector simple';
-        boothLink.href = `booths/booth?id=${booth.id}`;
+        boothLink.href = `nb-detail/booth.html?id=${booth.id}`;
 
         var id = document.createElement('div');
         id.className = 'booth-id';
@@ -201,8 +201,8 @@ function loadHitboxes(booths) {
     booths.forEach(function(booth) {
       if (booth.hitbox && booth.id) { // Asegurarse de que el booth tiene hitbox e ID
         var anchor = document.createElementNS('http://www.w3.org/2000/svg', 'a'); // Crear el elemento anchor
-        anchor.setAttribute('href', `booth/booth.html?id=${booth.id}`); // Usar el ID del booth para construir la URL
-        anchor.setAttribute('xlink:href', `booths/booth.html?id=${booth.id}`); // Para compatibilidad con navegadores más antiguos
+        anchor.setAttribute('href', `nb-detail/booth.html?id=${booth.id}`); // Usar el ID del booth para construir la URL
+        anchor.setAttribute('xlink:href', `nb-detail/booth.html?id=${booth.id}`); // Para compatibilidad con navegadores más antiguos
   
         var newElement = document.createElementNS('http://www.w3.org/2000/svg', 'path');
         // Extraer el atributo 'd' del hitbox HTML string usando DOMParser
