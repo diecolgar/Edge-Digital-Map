@@ -26,14 +26,24 @@ document.addEventListener("DOMContentLoaded", function() {
                 const mapLabel = document.querySelector('#map-label'); 
 
                 // Configurando el título y la descripción del booth
-                contentTitleText.textContent = booth.title;
                 dynamicContentContainer.innerHTML = `
-                    <p>${booth.description}</p>
-                    <p><strong>Área:</strong> ${booth.area} ${booth.number ? ', Stand Número: ' + booth.number : ''}</p>
-                    <p><strong>Contactos:</strong></p>
-                    <ul>
-                        ${booth.boothContacts.map(contact => `<li>${contact.name} - ${contact.role}</li>`).join('')}
-                    </ul>
+                    <div class="detail-booth-info">
+                        <div class="detail-booth-id">${booth.id}</div>
+                        <div class="detail-booth-type">${booth.type} Booth</div>
+                    </div>
+                    <div class="detail-booth-title">${booth.title}</div>
+                    <div class="detail-booth-subtitle">${booth.description}</div>
+                    <div class="detail-booth-separator"></div>
+                    <div class="detail-booth-label">About</div>
+                    <div class="detail-booth-about">${booth.about}</div>
+                    <div class="detail-booth-label">Related Industries</div>
+                    <div class="detail-booth-industries">
+                        ${booth.relatedIndustries.map(industry => `<div class="detail-booth-industry">${industry}</div>`).join('')}
+                    </div>
+                    <div class="detail-booth-label">Contact</div>
+                    <div class="detail-booth-contacts">
+                        ${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}
+                    </div>
                 `;
 
                 // Configura el src de la imagen basada en el área del booth

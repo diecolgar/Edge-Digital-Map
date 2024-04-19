@@ -1,7 +1,7 @@
 /* Sections */
 
 .sectionTitle {
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: var(--PrimaryGreen);
   padding: 1rem;
   width: auto;
@@ -43,6 +43,7 @@
   text-decoration: none;
   color: var(--Grey);
   font-weight: 700;
+  font-size: 0.85rem;
 }
 
 .keyThemesSeparator {
@@ -60,13 +61,13 @@
 }
 
 .keyThemesDescriptionTitle {
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: var(--Grey);
   font-style: italic;
 }
 
 .keyThemesDescriptionSubTitle {
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: var(--Grey);
 }
 
