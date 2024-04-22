@@ -125,7 +125,7 @@
 }
 
 #path-title {
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     font-weight: 700;
     color: #21BF61;
 }

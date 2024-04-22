@@ -83,34 +83,48 @@ function loadJourneysAndBooths(ptParam) {
 
 function appendBooth(booth, container, isInteractive) {
   let boothDiv = document.createElement('div');
-  boothDiv.className = 'booth-container highlight-class';
+  boothDiv.className = 'booth-container' + (isInteractive ? ' highlight-class' : '');
+  
   let arrowSVG = isInteractive ? `
-      <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-          <path d="M5 7.76367L10 12.7637L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>` : '';
+    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+      <path d="M5 7.76367L10 12.7637L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>` : '';
+
+  let detailsHTML = isInteractive ? `
+    <div class="details-description">${booth.description}</div>
+    <div class="details-label">About</div>
+    <div class="details-about">${booth.about}</div>
+    <div class="details-label">Related Industries</div>
+    <div class="details-industries">
+      ${booth.relatedIndustries.map(industry => `<div class="details-industry">${industry}</div>`).join('')}
+    </div>
+    <div class="details-label">Booth Contacts</div>
+    <div class="path-booth-contacts">
+      <div class="contact">${booth.boothContacts.map(contact => contact.name).join(', ')}</div>
+    </div>` : '';
+
   boothDiv.innerHTML = `
-      <div class="path-booth-preview" ${isInteractive ? 'onclick="toggleDetails(this)"' : ''}>
-          <div class="path-booth-info">
-              <div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>
-              <div class="path-booth-id">${booth.id}</div>
-              <div class="path-booth-title">${booth.title}</div>
-          </div>
-          ${arrowSVG}
+    <div class="path-booth-preview" ${isInteractive ? 'onclick="toggleDetails(this)"' : ''}>
+      <div class="path-booth-info">
+        <div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>
+        <div class="path-booth-id">${booth.id}</div>
+        <div class="path-booth-title">${booth.title}</div>
       </div>
-      <div class="path-booth-details" style="display: none;">
-          <div class="details-description">${booth.description}</div>
-          <!-- más detalles aquí -->
-      </div>
+      ${arrowSVG}
+    </div>
+    <div class="path-booth-details" style="display: none;">
+      ${detailsHTML}
+    </div>
   `;
   container.appendChild(boothDiv);
 
-  // Agregar el separador después de cada booth si es de tipo 'highlight'
   if (isInteractive) {
-      let separator = document.createElement('div');
-      separator.className = 'path-separator';
-      container.appendChild(separator);
+    let separator = document.createElement('div');
+    separator.className = 'path-separator';
+    container.appendChild(separator);
   }
 }
+
 
 
 function displayNonSelectableBooths(booths) {

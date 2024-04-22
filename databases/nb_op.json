@@ -1,178 +1,6 @@
 {
     "entries": [
       {
-        "id": "te01",
-        "area": "te",
-        "number": "01",
-        "color": "#322E81",
-        "type": "Collaborator",
-        "title": "Spatial Computing & Immersion",
-        "description": "Enrich your XR technology with Immersive Computing by GenAI",
-        "highlight": "<path d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"#21BF61\"/>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-        "relatedIndustries": [
-          "Industrial Goods",
-          "Consumer Products & Retail",
-          "Energy",
-          "Health Care",
-          "Insurance",
-          "Public Sector",
-          "Financial Institutions",
-          "Travel, Cities & Infrastructure"
-        ],
-        "boothContacts": [
-          { "name": "Dutch MacDonald", "role": "" },
-          { "name": "Kristi Woolsey", "role": ""},
-          { "name": "Tibor Merey", "role": ""
-          }
-        ]
-      },
-      {
-        "id": "te02",
-        "area": "te",
-        "number": "02",
-        "color": "#322E81",
-        "type": "Collaborator",
-        "title": "MIT CSAIL",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
-        "highlight": "<path d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>",
-        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-        "relatedIndustries": [
-          "Industrial Goods",
-          "Consumer Products & Retail",
-          "Energy",
-          "Health Care",
-          "Insurance",
-          "Public Sector",
-          "Financial Institutions",
-          "Travel, Cities & Infrastructure"
-        ],
-        "boothContacts": [
-          {
-            "name": "Dutch MacDonald",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Kristi Woolsey",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Tibor Merey",
-            "role": "Contact Person"
-          }
-        ]
-      },
-      {
-        "id": "cx02",
-        "area": "cx",
-        "number": "02",
-        "color": "#EFAE00",
-        "type": "Startup",
-        "title": "MIT CSAIL",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
-        "highlight": "<path opacity=\"1\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-        "relatedIndustries": [
-          "Industrial Goods",
-          "Consumer Products & Retail",
-          "Energy",
-          "Health Care",
-          "Insurance",
-          "Public Sector",
-          "Financial Institutions",
-          "Travel, Cities & Infrastructure"
-        ],
-        "boothContacts": [
-          {
-            "name": "Dutch MacDonald",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Kristi Woolsey",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Tibor Merey",
-            "role": "Contact Person"
-          }
-        ]
-      },
-      {
-        "id": "cx03",
-        "area": "cx",
-        "number": "03",
-        "color": "#EFAE00",
-        "type": "",
-        "title": "Spatial Computing & Immersionnn",
-        "description": "Enrich your XR technology with Immersive Computing by GenAI",
-        "highlight": "<path opacity=\"1\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-        "relatedIndustries": [
-          "Industrial Goods",
-          "Consumer Products & Retail",
-          "Energy",
-          "Health Care",
-          "Insurance",
-          "Public Sector",
-          "Financial Institutions",
-          "Travel, Cities & Infrastructure"
-        ],
-        "boothContacts": [
-          {
-            "name": "Dutch MacDonald",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Kristi Woolsey",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Tibor Merey",
-            "role": "Contact Person"
-          }
-        ]
-      },
-      {
-        "id": "pe04",
-        "area": "pe",
-        "number": "04",
-        "color": "#FF54D4",
-        "type": "",
-        "title": "PE 04 MIT CSAIL",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit curabitur dui semper, non justo magnis suspendisse.",
-        "highlight": "<path opacity=\"1\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M246.384 206.786L172.895 226.557L182.949 263.929L256.439 244.158L246.384 206.786Z\" fill=\"white\"></path>",
-        "about": "AI, IoT, Digital twins, and GenAI deliver content off-screen and into the world exactly when and where it is needed. Experience BCG built demos on the Apple Vision Pro, Magic Leap and Meta Quest, as well as the power of Spatial Digital Twins.",
-        "relatedIndustries": [
-          "Industrial Goods",
-          "Consumer Products & Retail",
-          "Energy",
-          "Health Care",
-          "Insurance",
-          "Public Sector",
-          "Financial Institutions",
-          "Travel, Cities & Infrastructure"
-        ],
-        "boothContacts": [
-          {
-            "name": "Dutch MacDonald",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Kristi Woolsey",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Tibor Merey",
-            "role": "Contact Person"
-          }
-        ]
-      },
-      {
         "id": "op01",
         "area": "op",
         "number": "01",
@@ -249,7 +77,7 @@
         "description": "Unleash the full potential of service & support teams with AI.",
         "highlight": "",
         "hitbox": "",
-        "about": "Digital & AI at work to boost efficiency, speed & customer outcomes in (field) service & support operations. Three avant-garde tools mark the next level of E2E process discovery and performance improvement:<br><ul><li>E2Epro AI (BGC x Celonis) - process x-ray scan & rapid improvement</li><li>FieldSOx - field force dispatch & routing optimization</li><li>Technician Copilot - GenAI technician support</li></ul>Must-know offerings for organizations concerned with cost advantage, digitization/AI, and superior customer experience.",
+        "about": "Digital & AI at work to boost efficiency, speed & customer outcomes in (field) service & support operations. Three avant-garde tools mark the next level of E2E process discovery and performance improvement:\n- E2Epro AI (BGC x Celonis) - process x-ray scan & rapid improvement\n- FieldSOx - field force dispatch & routing optimization\n- Technician Copilot - GenAI technician support\nMust-know offerings for organizations concerned with cost advantage, digitization/AI, and superior customer experience.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -481,7 +309,5 @@
           { "name": "Sammeli Sammalkorpi", "role": "" }
         ]
       }
-
     ]
   }
-  

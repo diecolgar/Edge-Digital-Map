@@ -19,13 +19,90 @@
         "title": "Consumer Products & Retail",
         "booths": [
           {"id": "te01", "type": "highlight"},
-          {"id": "te02", "type": "nonselectable"},
-          {"id": "te03", "type": "highlight"},
-          {"id": "pe04", "type": "highlight"},
-          {"id": "cx01", "type": "nonselectable"},
-          {"id": "cx02", "type": "nonselectable"}
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "energy",
+        "title": "Energy",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "financial",
+        "title": "Financial Institutions",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "health",
+        "title": "Health Care",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "industrial",
+        "title": "Industrial Goods",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "insurance",
+        "title": "Insurance",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "public",
+        "title": "Public Sector",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "tech",
+        "title": "Tech, Media & Telecom",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "travel",
+        "title": "Travel, Cities & Infrastructure",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "collaborators",
+        "title": "Partners & Collaborators",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "startups",
+        "title": "Startups",
+        "booths": [
+          {"id": "te01", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
         ]
       }
+      
     ]
   }
   
