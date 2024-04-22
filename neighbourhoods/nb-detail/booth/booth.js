@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 dynamicContentContainer.innerHTML = `
                     <div class="detail-booth-info">
                         <div class="detail-booth-id">${booth.id}</div>
-                        <div class="detail-booth-type">${booth.type} Booth</div>
+                        <div class="detail-booth-type">${booth.type}</div>
                     </div>
                     <div class="detail-booth-title">${booth.title}</div>
                     <div class="detail-booth-subtitle">${booth.description}</div>
@@ -46,6 +46,10 @@ document.addEventListener("DOMContentLoaded", function() {
                         ${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}
                     </div>
                 `;
+
+                if ((booth.type) === '') {
+                    document.querySelector('.detail-booth-type').style.display = 'none'
+                }
 
                 // Configura el src de la imagen basada en el área del booth
                 if (booth.area) {
