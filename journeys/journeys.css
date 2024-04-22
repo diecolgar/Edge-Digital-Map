@@ -1,0 +1,89 @@
+/* Sections */
+
+.sectionTitle {
+    font-size: 0.85rem;
+    color: var(--PrimaryGreen);
+    padding: 2rem 1rem 0 1rem;
+    width: auto;
+    font-weight: 700;
+  }
+  
+  /* Key Themes */
+  
+  #journeys {
+    background-color: #FAF7F3;
+    margin: auto;
+  }
+  
+  .journeysElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    gap: 1rem;
+  }
+  
+  .journeysPreview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .journeysArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .journeysLabel {
+    text-decoration: none;
+    color: var(--Grey);
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+  
+  .journeysSeparator {
+    height: 1px;
+    width: 90%;
+    background-color: #DFD7CC;
+    margin: auto;
+  }
+  
+  .journeysDescription {
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .journeysDescriptionTitle {
+    font-size: 0.85rem;
+    color: var(--Grey);
+    font-style: italic;
+  }
+  
+  .journeysDescriptionSubTitle {
+    font-size: 0.85rem;
+    color: var(--Grey);
+  }
+  
+  .journeysDescriptionCTA {
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    background-color: #21BF61;
+    width: max-content;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+  }
+  
+  
+  

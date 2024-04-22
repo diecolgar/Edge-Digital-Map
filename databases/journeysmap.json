@@ -15,13 +15,13 @@
         ]
       },
       {
-        "id": "01",
-        "title": "Consumer Products & Rt",
+        "id": "consumer",
+        "title": "Consumer Products & Retail",
         "booths": [
           {"id": "te01", "type": "highlight"},
-          {"id": "te02", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"},
           {"id": "te03", "type": "highlight"},
-          {"id": "cs02", "type": "nonselectable"},
+          {"id": "pe04", "type": "highlight"},
           {"id": "cx01", "type": "nonselectable"},
           {"id": "cx02", "type": "nonselectable"}
         ]

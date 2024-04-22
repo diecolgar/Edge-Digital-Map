@@ -23,7 +23,7 @@
         ],
         "boothContacts": [
           { "name": "Dutch MacDonald", "role": "" },
-          { "name": "Kristi Woolsey", "role": "" },
+          { "name": "Kristi Woolsey", "role": ""},
           { "name": "Tibor Merey", "role": ""
           }
         ]

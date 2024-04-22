@@ -32,13 +32,13 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(ptParam)
     switch (ptParam) {
         case 'ai': // Assuming this is the (Gen)AI Path from the last screenshot
-            iconPath = 'icon_ai.png';
+            // iconPath = 'icon_ai.png';
             text = '(Gen)AI Path';
             break;
     }
   
     // Actualiza el SRC del icono y el texto
-    titleIcon.style.backgroundImage = 'url(../../assets/icons/' + iconPath + ')';
+    titleIcon.style.backgroundImage = 'url(../../assets/maps/' + iconPath + ')';
     titleText.textContent = text;
   }
   

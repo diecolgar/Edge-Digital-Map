@@ -10,8 +10,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="preload" href="/assets/neighbourhoods/bt_cx.png" as="image">
-<link rel="preload" href="/assets/neighbourhoods/bt_te.png" as="image">
+<link rel="preload" href="/assets/maps/nb_cs.png" as="image">
+<link rel="preload" href="/assets/maps/nb_cx.png" as="image">
+<link rel="preload" href="/assets/maps/nb_te.png" as="image">
+<link rel="preload" href="/assets/maps/nb_pe.png" as="image">
+<link rel="preload" href="/assets/maps/nb_op.png" as="image">
 
 </head>
 
@@ -37,34 +40,34 @@
 
     <div id="navigator">
         <div id="navigationBar">
-            <div class="navigatorElement">
+            <a class="navigatorElement" href="/neighbourhoods.html">
                 <div class="navigatorLabel">Core Elements</div>
                 <div class="navigatorSelectionBar active"></div>
-            </div>
-            <div class="navigatorElement">
+            </a>
+            <a class="navigatorElement" href="/journeys.html">
                 <div class="navigatorLabel">Industry Journeys & Collaborators</div>
                 <div class="navigatorSelectionBar"></div>
-            </div>
-            <div class="navigatorElement">
+            </a>
+            <a class="navigatorElement">
                 <div class="navigatorLabel">Services</div>
                 <div class="navigatorSelectionBar"></div>
-            </div>
+            </a>
         </div>
     </div>
 
     <div id="page-content-wrapper">
         <div id="map-container">
             <a id="map-label">
-                <img class="nb-interactive-label" src="../../assets/neighbourhoods/neighbourhoods_detail_label_booth.png" alt="">
+                <img class="nb-interactive-label" src="../../assets/maps/neighbourhoods_detail_label_booth.png" alt="">
             </a>
         
             <div id="map"> 
                 <img id="interactive-map" src="" alt="" style="min-height: 40vh;">
-                <!-- <img src="../assets/neighbourhoods/neighbourhoods_hitboxes.svg" alt="" style="z-index: 10;"> -->
+                <!-- <img src="../assets/maps/neighbourhoods_hitboxes.svg" alt="" style="z-index: 10;"> -->
 
                 <svg id="highlight-map" class="height-adjust" width="100%" height="100%" viewBox="0 0 393 416" fill="none" xmlns="http://www.w3.org/2000/svg">
                 </svg>
-                <img id="interactive-map-names" src="/assets/neighbourhoods/nb_te_names.png" alt="" style="position: absolute; top: 0; left: 0;">
+                <img id="interactive-map-names" src="/assets/maps/nb_te_names.png" alt="" style="position: absolute; top: 0; left: 0;">
                 <svg id="hitbox-map" class="height-adjust" width="100%" height="100%" viewBox="0 0 393 416" fill="none" xmlns="http://www.w3.org/2000/svg">
                 </svg>
             </div>

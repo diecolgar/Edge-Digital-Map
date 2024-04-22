@@ -39,7 +39,7 @@ function getQueryParam(param) {
     }
 
     // Actualiza el SRC del icono y el texto
-    titleIcon.style.backgroundImage = 'url(../../assets/neighbourhoods/' + iconPath + ')'; // Asegúrate de que la ruta es correcta
+    titleIcon.style.backgroundImage = 'url(../../assets/icons/' + iconPath + ')'; // Asegúrate de que la ruta es correcta
     titleText.textContent = text;
 }
   
@@ -47,7 +47,7 @@ function cambiarSrcImagen() {
     var parametroNB = getQueryParam('pt');
     if (parametroNB) {
         var imagen = document.querySelector('#interactive-map'); 
-        imagen.src = "../../assets/neighbourhoods/pt_" + parametroNB + ".png"; 
+        imagen.src = "../../assets/maps/pt_" + parametroNB + ".png"; 
     }
     if (parametroNB === 'ai') {
         document.querySelector('.nb-interactive-label').style.display = 'none'

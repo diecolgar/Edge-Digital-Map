@@ -35,7 +35,16 @@
 
   /* Map */
 
-#map-label {
+  #map-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EAE7E3;
+    width: 100%;
+    margin: auto;
+  }
+
+  #lower-map-label {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,6 +61,7 @@
     width: 100%;
     position: relative;
     margin: auto;
+    background-color: #EAE7E3;
   }
   
   #map > img {
@@ -100,7 +110,7 @@
   /* Home */
   
   #homeContainer {
-    background-color: #EAE7E3;
+    background-color: #FAF7F3;
     width: 100vw;
     min-height: 100vh;
   }

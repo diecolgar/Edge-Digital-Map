@@ -21,7 +21,7 @@
         "icon": "espresso-bar.svg",
         "areas": [
             "pe",
-            ""
+            "cx"
           ]
       },
       {
@@ -95,7 +95,7 @@
         "title": "Nitro Cold Brew Bar",
         "icon": "nitro-cold-brew-bar.svg",
         "areas": [
-            "cx",
+            "",
             ""
           ]
       },

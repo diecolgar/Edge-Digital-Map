@@ -5,10 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Edge Map</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css">
-<link rel="stylesheet" href="neighbourhoods.css">
-<link rel="stylesheet" href="nb-detail/nb-detail.css">
-<link rel="stylesheet" href="nb-journey/nb-journey.css">
 <link rel="stylesheet" href="../general.css">
+<link rel="stylesheet" href="pt-journey/pt-journey-double.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
@@ -37,11 +35,11 @@
         <div id="navigationBar">
             <a class="navigatorElement" href="/neighbourhoods.html">
                 <div class="navigatorLabel">Core Elements</div>
-                <div class="navigatorSelectionBar active"></div>
+                <div class="navigatorSelectionBar"></div>
             </a>
             <a class="navigatorElement" href="/journeys.html">
                 <div class="navigatorLabel">Industry Journeys & Collaborators</div>
-                <div class="navigatorSelectionBar"></div>
+                <div class="navigatorSelectionBar active"></div>
             </a>
             <a class="navigatorElement">
                 <div class="navigatorLabel">Services</div>
@@ -63,6 +61,10 @@
                 <svg id="hitbox-map" width="100%" height="100%" viewBox="0 0 393 416" fill="none" xmlns="http://www.w3.org/2000/svg">
                 </svg>
             </div>
+
+            <div id="lower-map-label">
+                <img src="../assets/maps/neighbourhoods_lower_label.png" alt="">
+            </div>
             
         </div>
     
@@ -78,7 +80,14 @@
 
           <div id="path-content-container">
 
-            <div class="keyThemesElement" href="/nb-detail.html?id=algo">
+            <div id="path-title"></div>
+
+            <div id="highlights" class="pathThemesElement">
+                <div class="path-label">Start your journey</div>
+    
+            </div>
+
+            <div id="static" class="pathThemesElement">
         
                 <div class="pathThemesPreview" id="cxKeyThemes">
                     <div class="pathThemesArea">
@@ -156,7 +165,7 @@
 </div>
 
 
-<script src="nb-journey/nb-journey.js"></script>
+<script src="pt-journey/pt-journey-double.js"></script>
 
 </body>
 </html>

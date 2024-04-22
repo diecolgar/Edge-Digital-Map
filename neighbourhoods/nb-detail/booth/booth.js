@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const imagen = document.querySelector('#interactive-map');
                 const hitboxMap = document.querySelector('#hitbox-map');
                 const highlightMap = document.querySelector('#highlight-map');
+                const namesMap = document.querySelector('#interactive-map-names');
                 const mapLabel = document.querySelector('#map-label'); 
 
                 // Configurando el título y la descripción del booth
@@ -48,7 +49,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // Configura el src de la imagen basada en el área del booth
                 if (booth.area) {
-                    imagen.src = `../../../assets/neighbourhoods/bt_${booth.area.toLowerCase()}.png`;
+                    imagen.src = `../../../assets/maps/nb_${booth.area.toLowerCase()}_opacity.png`;
+                    namesMap.src = `../../../assets/maps/nb_${booth.area.toLowerCase()}_names.png`;
                     mapLabel.setAttribute('href', `../nb-detail.html?nb=${booth.area}`); // Ajusta el href con la área del booth
                 }
 
