@@ -22,17 +22,9 @@
           "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
-          {
-            "name": "Dutch MacDonald",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Kristi Woolsey",
-            "role": "Contact Person"
-          },
-          {
-            "name": "Tibor Merey",
-            "role": "Contact Person"
+          { "name": "Dutch MacDonald", "role": "" },
+          { "name": "Kristi Woolsey", "role": "" },
+          { "name": "Tibor Merey", "role": ""
           }
         ]
       },
