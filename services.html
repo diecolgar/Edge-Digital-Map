@@ -1,35 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
-    
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Edge Map</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css">
-<link rel="stylesheet" href="neighbourhoods.css">
-<link rel="stylesheet" href="nb-detail/nb-detail.css">
-<link rel="stylesheet" href="nb-detail/journey.css">
-<link rel="stylesheet" href="../general.css">
+<link rel="stylesheet" href="general.css">
+<link rel="stylesheet" href="services/services.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link rel="preload" href="/assets/maps/neighbourhoods_map.png" as="image">
-<link rel="preload" href="/assets/maps/nb_cs.png" as="image">
-<link rel="preload" href="/assets/maps/nb_cx.png" as="image">
-<link rel="preload" href="/assets/maps/nb_te.png" as="image">
-<link rel="preload" href="/assets/maps/nb_pe.png" as="image">
-<link rel="preload" href="/assets/maps/nb_op.png" as="image">
-<link rel="preload" href="/assets/maps/nb_cs_opacity.png" as="image">
-<link rel="preload" href="/assets/maps/nb_cx_opacity.png" as="image">
-<link rel="preload" href="/assets/maps/nb_te_opacity.png" as="image">
-<link rel="preload" href="/assets/maps/nb_pe_opacity.png" as="image">
-<link rel="preload" href="/assets/maps/nb_op_opacity.png" as="image">
-<link rel="preload" href="/assets/maps/nb_cs_names.png" as="image">
-<link rel="preload" href="/assets/maps/nb_cx_names.png" as="image">
-<link rel="preload" href="/assets/maps/nb_te_names.png" as="image">
-<link rel="preload" href="/assets/maps/nb_pe_names.png" as="image">
-<link rel="preload" href="/assets/maps/nb_op_names.png" as="image">
 
 </head>
 
@@ -37,7 +16,7 @@
 
 <div id="homeContainer">
 
-  <a id="homeTitle" href="/">
+    <a id="homeTitle" href="/">
         <svg xmlns="http://www.w3.org/2000/svg" width="126" height="32" viewBox="0 0 126 32" fill="none">
             <g clip-path="url(#clip0_3107_47704)">
             <path d="M0.0732422 31.3007V0.518158H18.1808V4.22942H4.46497V13.4175H15.2383V17.1287H4.46497V27.5857H20.5827V31.297H0.0769127L0.0732422 31.3007Z" fill="#F1EEEA"/>
@@ -57,7 +36,7 @@
         <div id="navigationBar">
             <a class="navigatorElement" href="/neighbourhoods.html">
                 <div class="navigatorLabel">Core Elements</div>
-                <div class="navigatorSelectionBar active"></div>
+                <div class="navigatorSelectionBar"></div>
             </a>
             <a class="navigatorElement" href="/journeys.html">
                 <div class="navigatorLabel">Industry Journeys & Collaborators</div>
@@ -65,50 +44,45 @@
             </a>
             <a class="navigatorElement" href="/services.html">
                 <div class="navigatorLabel">Services</div>
-                <div class="navigatorSelectionBar"></div>
+                <div class="navigatorSelectionBar active"></div>
             </a>
         </div>
     </div>
 
     <div id="page-content-wrapper">
         <div id="map-container">
-            <a id="map-label" href="../neighbourhoods.html">
-                <img class="nb-interactive-label" src="../../assets/maps/neighbourhoods_detail_label.png" alt="">
-                <img class="nb-no-interactive-label" style="display: none;" src="../../assets/maps/neighbourhoods_detail_label_noint.png" alt="">
-            </a>
+            <!-- <div id="map-label">
+                <img src="../assets/maps/neighbourhoods_label.png" alt="">
+            </div> -->
         
-            <div id="map"> 
-                <img id="interactive-map" src="" alt="">
+            <div id="map">
+                <img src="../assets/maps/services_map.png" alt="">
                 <!-- <img src="../assets/maps/neighbourhoods_hitboxes.svg" alt="" style="z-index: 10;"> -->
-                <svg id="hitbox-map" width="100%" height="100%" viewBox="0 0 393 416" fill="none" xmlns="http://www.w3.org/2000/svg">
-                </svg>
+ 
             </div>
-            
+
+            <div id="lower-map-label">
+                <img src="../assets/maps/neighbourhoods_lower_label.png" alt="">
+            </div>
         </div>
     
         <div id="content-container">
-          <div id="content-title">
-            <div id="content-title-icon">
+            
+            <div class="sectionTitle">
+                Services
+            </div>
+
+            <div id="services-container">
 
             </div>
-            <div id="content-title-text">
 
-            </div>
-          </div>
-          <div id="dynamic-content-container">
-
-          </div>
-          <div id="static-content-container">
-
-          </div>
         </div>
-
     </div>
 
 </div>
 
 
-<script src="nb-detail/nb-detail.js"></script>
 
+<script src="services/services.js"></script>
 </body>
 </html>

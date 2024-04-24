@@ -68,8 +68,10 @@ function loadJourneysAndBooths(ptParam) {
                           matchedJourney.booths.some(journeyBooth => journeyBooth.id === booth.id && journeyBooth.type === "nonselectable"));
                       let highlightBooths = boothsData.entries.filter(booth =>
                           matchedJourney.booths.some(journeyBooth => journeyBooth.id === booth.id && journeyBooth.type === "highlight"));
+                      let allBooths = boothsData.entries.filter(booth =>
+                        matchedJourney.booths.some(journeyBooth => journeyBooth.id === booth.id));
                       
-                      displayNonSelectableBooths(nonSelectableBooths); // Función separada para nonselectables
+                      displayNonSelectableBooths(allBooths); // Función separada para todos los booths
                       displayHighlightBooths(highlightBooths); // Función separada para highlights
                   })
                   .catch(error => console.error('Error al cargar los booths:', error));
@@ -80,14 +82,25 @@ function loadJourneysAndBooths(ptParam) {
       .catch(error => console.error('Error al cargar los journeys:', error));
 }
 
+const industryMappings = {
+  "Consumer Products & Retail": "pt-journey-double.html?pt=consumer",
+  "Energy": "pt-journey-double.html?pt=energy",
+  "Financial Institutions": "pt-journey-double.html?pt=financial",
+  "Health Care": "pt-journey-double.html?pt=health",
+  "Industrial Goods": "pt-journey-double.html?pt=industrial",
+  "Insurance": "pt-journey-double.html?pt=insurance",
+  "Public Sector": "pt-journey-double.html?pt=public",
+  "Tech, Media & Telecom": "pt-journey-double.html?pt=tech",
+  "Travel, Cities & Infrastructure": "pt-journey-double.html?pt=travel"
+};
 
 function appendBooth(booth, container, isInteractive) {
   let boothDiv = document.createElement('div');
   boothDiv.className = 'booth-container' + (isInteractive ? ' highlight-class' : '');
-  
+
   let arrowSVG = isInteractive ? `
     <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-      <path d="M5 7.76367L10 12.7637L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5 7.76367L10 12.76367L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>` : '';
 
   let detailsHTML = isInteractive ? `
@@ -96,17 +109,22 @@ function appendBooth(booth, container, isInteractive) {
     <div class="details-about">${booth.about}</div>
     <div class="details-label">Related Industries</div>
     <div class="details-industries">
-      ${booth.relatedIndustries.map(industry => `<div class="details-industry">${industry}</div>`).join('')}
+      ${booth.relatedIndustries.map(industry => `
+        <a href="${industryMappings[industry] || 'pt-journey.html'}" class="details-industry">
+          ${industry}
+        </a>`).join('')}
     </div>
     <div class="details-label">Booth Contacts</div>
     <div class="path-booth-contacts">
       <div class="contact">${booth.boothContacts.map(contact => contact.name).join(', ')}</div>
     </div>` : '';
 
+  let boothNumberHTML = isInteractive ? `<div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>` : '';
+
   boothDiv.innerHTML = `
     <div class="path-booth-preview" ${isInteractive ? 'onclick="toggleDetails(this)"' : ''}>
       <div class="path-booth-info">
-        <div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>
+        ${boothNumberHTML}
         <div class="path-booth-id">${booth.id}</div>
         <div class="path-booth-title">${booth.title}</div>
       </div>
@@ -136,7 +154,7 @@ function displayNonSelectableBooths(booths) {
           return;
       }
       let boothsContainer = areaContainer.querySelector('.booths-container');
-      appendBooth(booth, boothsContainer, false); // No interactivo
+      appendBooth(booth, boothsContainer, false); // Utiliza el formato no interactivo para todos
   });
 }
 
@@ -160,7 +178,18 @@ function updateJourneyTitle(title) {
 
 function toggleDetails(element) {
   var details = element.nextElementSibling;
+  var arrow = element.querySelector('.arrow-icon');
   var isExpanded = details.style.display === 'block';
-  document.querySelectorAll('.path-booth-details').forEach(detail => detail.style.display = 'none');
+
+  document.querySelectorAll('.path-booth-details').forEach(detail => {
+    detail.style.display = 'none';
+    let otherArrow = detail.previousElementSibling.querySelector('.arrow-icon');
+    if (otherArrow) {
+      otherArrow.style.transform = 'rotate(0deg)'; // Asegúrate de que todas las otras flechas se restablezcan
+    }
+  });
+
   details.style.display = isExpanded ? 'none' : 'block';
+  arrow.style.transform = isExpanded ? 'rotateX(0deg)' : 'rotateX(180deg)'; // Rota la flecha cuando se expande
 }
+

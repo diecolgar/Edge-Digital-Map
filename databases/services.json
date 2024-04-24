@@ -1,6 +1,22 @@
 {
     "entries": [
       {
+        "title": "Lounge Areas",
+        "icon": "lounge-areas.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      },
+      {
+        "title": "Meeting Rooms",
+        "icon": "meeting-rooms.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      },
+      {
         "title": "Charging Spot",
         "icon": "charging-spot.svg",
         "areas": [
@@ -70,22 +86,6 @@
       {
         "title": "IT Station",
         "icon": "it-station.svg",
-        "areas": [
-            "",
-            ""
-          ]
-      },
-      {
-        "title": "Lounge Areas",
-        "icon": "lounge-areas.svg",
-        "areas": [
-            "",
-            ""
-          ]
-      },
-      {
-        "title": "Meeting Rooms",
-        "icon": "meeting-rooms.svg",
         "areas": [
             "",
             ""

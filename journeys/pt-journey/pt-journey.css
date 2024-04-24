@@ -101,12 +101,13 @@
 }
 
 .details-industry {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 700;
     padding: 0rem 0.5rem;
     background-color: #FFF;
     color: #197A56;
     border-radius: 1rem;
+    text-decoration: none;
 }
 
 .path-booth-contacts {

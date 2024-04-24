@@ -1,0 +1,41 @@
+#content-container {
+    padding: 1rem;
+    width: auto;
+}
+
+.sectionTitle {
+    font-size: 1rem;
+    color: var(--PrimaryGreen);
+    width: auto;
+    font-weight: 700;
+    padding-bottom: 1rem;
+  }
+
+.service-entry {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.services-entry-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.services-icon {
+    width: 2rem;
+}
+
+.services-title {
+    font-size: 0.85rem;
+}
+
+.services-separator {
+    height: 1px;
+    width: 100%;
+    background-color: #DFD7CC;
+    margin: 0.25rem 0;
+}
+
+/* #services-container {
+} */

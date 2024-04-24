@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(journeysData => {
           let matchedJourney = journeysData.journeys.find(journey => journey.id === ptParam);
           if (matchedJourney) {
+            updateJourneyTitle(matchedJourney.title);  // Actualizar el título del journey
             fetch('../../databases/booths-db.json')
               .then(response => response.json())
               .then(boothsData => {
@@ -72,62 +73,93 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error al cargar los journeys:', error));
   }
+
+  const industryMappings = {
+    "Consumer Products & Retail": "pt-journey-double.html?pt=consumer",
+    "Energy": "pt-journey-double.html?pt=energy",
+    "Financial Institutions": "pt-journey-double.html?pt=financial",
+    "Health Care": "pt-journey-double.html?pt=health",
+    "Industrial Goods": "pt-journey-double.html?pt=industrial",
+    "Insurance": "pt-journey-double.html?pt=insurance",
+    "Public Sector": "pt-journey-double.html?pt=public",
+    "Tech, Media & Telecom": "pt-journey-double.html?pt=tech",
+    "Travel, Cities & Infrastructure": "pt-journey-double.html?pt=travel"
+  };
   
   function displayPathBooths(booths) {
     booths.forEach(booth => {
-        // Determina el contenedor correcto basado en el área del booth
-        let areaContainerId = `${booth.area}KeyThemes`;
-        let areaContainer = document.getElementById(areaContainerId);
-        
-        if (!areaContainer) {
-            console.warn(`No se encontró el contenedor para la área: ${booth.area}`);
-            return;
-        }
-
-        // Apunta al contenedor específico de booths dentro del contenedor de área
-        let boothsContainer = areaContainer.querySelector('.booths-container');
-
-        let boothDiv = document.createElement('div');
-        boothDiv.className = 'booth-container highlight-class';
-        boothDiv.innerHTML = `
-            <div class="path-booth-preview" onclick="toggleDetails(this)">
-                <div class="path-booth-info">
-                    <div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>
-                    <div class="path-booth-id">${booth.id}</div>
-                    <div class="path-booth-title">${booth.title}</div>
-                </div>
-                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                    <path d="M5 7.76367L10 12.7637L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </div>
-            <div class="path-booth-details" style="display: none;">
-                <div class="details-description">${booth.description}</div>
-                <div class="details-label">About</div>
-                <div class="details-about">${booth.about}</div>
-                <div class="details-label">Related Industries</div>
-                <div class="details-industries">
-                    ${booth.relatedIndustries.map(industry => `<div class="details-industry">${industry}</div>`).join('')}
-                </div>
-                <div class="details-label">Booth Contacts</div>
-                <div class="path-booth-contacts">
-                    <div class="contact">${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}</div>
-                </div>
-            </div>
-        `;
-        boothsContainer.appendChild(boothDiv);
-
-        var separator = document.createElement('div');
-        separator.className = 'path-separator';
-        boothsContainer.appendChild(separator);
-    });
-}
-
-
+      let areaContainerId = `${booth.area}KeyThemes`;
+      let areaContainer = document.getElementById(areaContainerId);
+      
+      if (!areaContainer) {
+          console.warn(`No se encontró el contenedor para la área: ${booth.area}`);
+          return;
+      }
   
-  function toggleDetails(element) {
-    var details = element.nextElementSibling;
-    var isExpanded = details.style.display === 'block';
-    document.querySelectorAll('.path-booth-details').forEach(detail => detail.style.display = 'none');
-    details.style.display = isExpanded ? 'none' : 'block';
+      let boothsContainer = areaContainer.querySelector('.booths-container');
+  
+      let boothDiv = document.createElement('div');
+      boothDiv.className = 'booth-container highlight-class';
+      boothDiv.innerHTML = `
+          <div class="path-booth-preview" onclick="toggleDetails(this)">
+              <div class="path-booth-info">
+                  <div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>
+                  <div class="path-booth-id">${booth.id}</div>
+                  <div class="path-booth-title">${booth.title}</div>
+              </div>
+              <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                  <path d="M5 7.76367L10 12.7637L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </div>
+          <div class="path-booth-details" style="display: none;">
+              <div class="details-description">${booth.description}</div>
+              <div class="details-label">About</div>
+              <div class="details-about">${booth.about}</div>
+              <div class="details-label">Related Industries</div>
+              <div class="details-industries">
+              ${booth.relatedIndustries.map(industry => `
+                <a href="${industryMappings[industry] || 'pt-journey.html'}" class="details-industry">
+                  ${industry}
+                </a>`).join('')}
+            </div>
+              <div class="details-label">Booth Contacts</div>
+              <div class="path-booth-contacts">
+                  <div class="contact">${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}</div>
+              </div>
+          </div>
+      `;
+      boothsContainer.appendChild(boothDiv);
+  
+      let separator = document.createElement('div');
+      separator.className = 'path-separator';
+      boothsContainer.appendChild(separator);
+    });
   }
   
+  function updateJourneyTitle(title) {
+    var pathTitleDiv = document.getElementById('path-title');
+    if (pathTitleDiv) {
+        pathTitleDiv.textContent = title;
+    } else {
+        console.error('El elemento para el título del journey no fue encontrado.');
+    }
+  }
+  
+  
+function toggleDetails(element) {
+  var details = element.nextElementSibling;
+  var arrow = element.querySelector('.arrow-icon');
+  var isExpanded = details.style.display === 'block';
+
+  document.querySelectorAll('.path-booth-details').forEach(detail => {
+    detail.style.display = 'none';
+    let otherArrow = detail.previousElementSibling.querySelector('.arrow-icon');
+    if (otherArrow) {
+      otherArrow.style.transform = 'rotate(0deg)'; // Asegúrate de que todas las otras flechas se restablezcan
+    }
+  });
+
+  details.style.display = isExpanded ? 'none' : 'block';
+  arrow.style.transform = isExpanded ? 'rotateX(0deg)' : 'rotateX(180deg)'; // Rota la flecha cuando se expande
+}
+

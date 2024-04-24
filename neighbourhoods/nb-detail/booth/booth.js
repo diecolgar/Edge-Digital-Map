@@ -39,8 +39,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="detail-booth-about">${booth.about}</div>
                     <div class="detail-booth-label">Related Industries</div>
                     <div class="detail-booth-industries">
-                        ${booth.relatedIndustries.map(industry => `<div class="detail-booth-industry">${industry}</div>`).join('')}
-                    </div>
+                    ${booth.relatedIndustries.map(industry => `
+                      <a href="../../../journeys/${industryMappings[industry] || 'pt-journey.html'}" class="detail-booth-industry">
+                        ${industry}
+                      </a>`).join('')}
+                  </div>
                     <div class="detail-booth-label">Contact</div>
                     <div class="detail-booth-contacts">
                         ${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}
@@ -86,3 +89,15 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('content-title-text').textContent = 'Error al cargar la información';
         });
 });
+
+const industryMappings = {
+    "Consumer Products & Retail": "pt-journey-double.html?pt=consumer",
+    "Energy": "pt-journey-double.html?pt=energy",
+    "Financial Institutions": "pt-journey-double.html?pt=financial",
+    "Health Care": "pt-journey-double.html?pt=health",
+    "Industrial Goods": "pt-journey-double.html?pt=industrial",
+    "Insurance": "pt-journey-double.html?pt=insurance",
+    "Public Sector": "pt-journey-double.html?pt=public",
+    "Tech, Media & Telecom": "pt-journey-double.html?pt=tech",
+    "Travel, Cities & Infrastructure": "pt-journey-double.html?pt=travel"
+  };

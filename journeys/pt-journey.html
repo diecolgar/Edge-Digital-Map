@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Edge Map</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css">
-<link rel="stylesheet" href="neighbourhoods.css">
 <link rel="stylesheet" href="pt-journey/pt-journey.css">
 <link rel="stylesheet" href="../general.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +41,7 @@
                 <div class="navigatorLabel">Industry Journeys & Collaborators</div>
                 <div class="navigatorSelectionBar active"></div>
             </a>
-            <a class="navigatorElement">
+            <a class="navigatorElement" href="/services.html">
                 <div class="navigatorLabel">Services</div>
                 <div class="navigatorSelectionBar"></div>
             </a>
@@ -52,8 +51,8 @@
     <div id="page-content-wrapper">
         <div id="map-container">
             <a id="map-label" href="../journeys.html">
-                <!-- <img class="nb-interactive-label" src="../../assets/maps/neighbourhoods_detail_label.png" alt=""> -->
-                <img class="nb-no-interactive-label" src="../../assets/maps/journeys_label.png" alt="">
+                <img class="nb-interactive-label" src="../../assets/maps/journeys_back.png" alt="">
+                <img class="nb-no-interactive-label" src="../assets/maps/journeys_upper_label.png" alt="">
             </a>
         
             <div id="map"> 
@@ -61,6 +60,10 @@
                 <!-- <img src="../assets/maps/neighbourhoods_hitboxes.svg" alt="" style="z-index: 10;"> -->
                 <svg id="hitbox-map" width="100%" height="100%" viewBox="0 0 393 416" fill="none" xmlns="http://www.w3.org/2000/svg">
                 </svg>
+            </div>
+
+            <div id="lower-map-label">
+                <img src="../assets/maps/neighbourhoods_lower_label.png" alt="">
             </div>
             
         </div>
@@ -76,6 +79,8 @@
           </div>
 
           <div id="path-content-container">
+
+            <div id="path-title"></div>
 
             <div class="keyThemesElement" href="/nb-detail.html?id=algo">
         
@@ -144,6 +149,10 @@
                     </svg>
                 </div>
     
+            </div>
+
+            <div class="genAiElement">
+
             </div>
 
           </div>

@@ -73,54 +73,67 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error al cargar los journeys:', error));
   }
   
+  const industryMappings = {
+    "Consumer Products & Retail": "../../journeys/pt-journey-double.html?pt=consumer",
+    "Energy": "../../journeys/pt-journey-double.html?pt=energy",
+    "Financial Institutions": "../../journeys/pt-journey-double.html?pt=financial",
+    "Health Care": "../../journeys/pt-journey-double.html?pt=health",
+    "Industrial Goods": "../../journeys/pt-journey-double.html?pt=industrial",
+    "Insurance": "../../journeys/pt-journey-double.html?pt=insurance",
+    "Public Sector": "../../journeys/pt-journey-double.html?pt=public",
+    "Tech, Media & Telecom": "../../journeys/pt-journey-double.html?pt=tech",
+    "Travel, Cities & Infrastructure": "../../journeys/pt-journey-double.html?pt=travel"
+  };
+  
   function displayPathBooths(booths) {
     booths.forEach(booth => {
-        // Determina el contenedor correcto basado en el área del booth
-        let areaContainerId = `${booth.area}KeyThemes`;
-        let areaContainer = document.getElementById(areaContainerId);
-        
-        if (!areaContainer) {
-            console.warn(`No se encontró el contenedor para la área: ${booth.area}`);
-            return;
-        }
-
-        // Apunta al contenedor específico de booths dentro del contenedor de área
-        let boothsContainer = areaContainer.querySelector('.booths-container');
-
-        let boothDiv = document.createElement('div');
-        boothDiv.className = 'booth-container highlight-class';
-        boothDiv.innerHTML = `
-            <div class="path-booth-preview" onclick="toggleDetails(this)">
-                <div class="path-booth-info">
-                    <div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>
-                    <div class="path-booth-id">${booth.id}</div>
-                    <div class="path-booth-title">${booth.title}</div>
-                </div>
-                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                    <path d="M5 7.76367L10 12.7637L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+      let areaContainerId = `${booth.area}KeyThemes`;
+      let areaContainer = document.getElementById(areaContainerId);
+      
+      if (!areaContainer) {
+          console.warn(`No se encontró el contenedor para la área: ${booth.area}`);
+          return;
+      }
+  
+      let boothsContainer = areaContainer.querySelector('.booths-container');
+  
+      let boothDiv = document.createElement('div');
+      boothDiv.className = 'booth-container highlight-class';
+      boothDiv.innerHTML = `
+          <div class="path-booth-preview" onclick="toggleDetails(this)">
+              <div class="path-booth-info">
+                  <div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>
+                  <div class="path-booth-id">${booth.id}</div>
+                  <div class="path-booth-title">${booth.title}</div>
+              </div>
+              <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                  <path d="M5 7.76367L10 12.7637L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </div>
+          <div class="path-booth-details" style="display: none;">
+              <div class="details-description">${booth.description}</div>
+              <div class="details-label">About</div>
+              <div class="details-about">${booth.about}</div>
+              <div class="details-label">Related Industries</div>
+              <div class="details-industries">
+              ${booth.relatedIndustries.map(industry => `
+                <a href="${industryMappings[industry] || 'pt-journey.html'}" class="details-industry">
+                  ${industry}
+                </a>`).join('')}
             </div>
-            <div class="path-booth-details" style="display: none;">
-                <div class="details-description">${booth.description}</div>
-                <div class="details-label">About</div>
-                <div class="details-about">${booth.about}</div>
-                <div class="details-label">Related Industries</div>
-                <div class="details-industries">
-                    ${booth.relatedIndustries.map(industry => `<div class="details-industry">${industry}</div>`).join('')}
-                </div>
-                <div class="details-label">Booth Contacts</div>
-                <div class="path-booth-contacts">
-                    <div class="contact">${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}</div>
-                </div>
-            </div>
-        `;
-        boothsContainer.appendChild(boothDiv);
-
-        var separator = document.createElement('div');
-        separator.className = 'path-separator';
-        boothsContainer.appendChild(separator);
+              <div class="details-label">Booth Contacts</div>
+              <div class="path-booth-contacts">
+                  <div class="contact">${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}</div>
+              </div>
+          </div>
+      `;
+      boothsContainer.appendChild(boothDiv);
+  
+      let separator = document.createElement('div');
+      separator.className = 'path-separator';
+      boothsContainer.appendChild(separator);
     });
-}
+  }
 
 
   

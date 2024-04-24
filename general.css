@@ -110,6 +110,12 @@
     margin: 0.5rem 0;
   }
 
+  a:-webkit-any-link {
+    color: auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+
   
   /* Home */
   
@@ -159,6 +165,7 @@
     color: white;
     font-size: 0.75rem;
     padding: 0.5rem 0.75rem;
+    line-height: 100%;
   }
   
   .navigatorSelectionBar {

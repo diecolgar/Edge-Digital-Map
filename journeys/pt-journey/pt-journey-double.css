@@ -11,6 +11,7 @@
     display: flex;
     gap: 0.5rem;
     margin-bottom: 0.5rem;
+    margin-top: 2rem;
 }
 
 .journey-booth {
@@ -26,7 +27,7 @@
     flex-direction: column;
     gap: 0.5rem;
     width: auto;
-    padding: 1rem 0;
+    padding: 0.25rem 0;
 }
 
 .path-booth-preview {
@@ -59,14 +60,14 @@
 }
 
 .path-booth-id {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
     color: #B1B1B1;
     font-weight: 700;
 }
 
 .path-booth-title {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #323232;
     font-weight: 700;
 }
@@ -101,12 +102,13 @@
 }
 
 .details-industry {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 700;
     padding: 0rem 0.5rem;
     background-color: #FFF;
     color: #197A56;
     border-radius: 1rem;
+    text-decoration: none;
 }
 
 .path-booth-contacts {
@@ -122,6 +124,7 @@
     width: 100%;
     background-color: #DFD7CC;
     width: auto;
+    margin: 0.5rem 0;
 }
 
 #path-title {
@@ -137,6 +140,12 @@
 }
 
 .path-label {
+    font-size: 1rem;
     padding: 1rem 0;
     font-weight: 700;
 }
+
+.arrow-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
