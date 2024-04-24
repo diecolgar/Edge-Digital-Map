@@ -1,0 +1,212 @@
+{
+    "entries": [
+      {
+        "id": "cx01",
+        "area": "cx",
+        "number": "01",
+        "color": "#EFAE00",
+        "type": "",
+        "title": "Customer Insight & Innovation",
+        "description": "Drive demand-driven innovation at scale.",
+        "highlight": "<path opacity=\"1\" d=\"M344.725 286.132L267.789 240.741L246.001 277.671L322.937 323.062L344.725 286.132Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M344.725 286.132L267.789 240.741L246.001 277.671L322.937 323.062L344.725 286.132Z\" fill=\"white\"/>        ",
+        "about": "Customer intelligence growth has been exploding, however, many organizations have struggled to translate this into improved decision-making and outcomes. For success, leverage AI to unlock three types of fundamental shifts: Deploy AI to optimize tasks, reshape decision-making with AI, and unlock a holistic intelligence ecosystem. Learn how AI-enabled transformation can drive integrated data-rich human insights, massive productivity gains, creativity, and superior innovations in fraction of time.",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Energy",
+          "Financial Institutions",
+          "Health Care",
+          "Insurance",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          { "name": "Yotam Ariav", "role": "" }
+        ]
+      },
+      {
+        "id": "cx02",
+        "area": "cx",
+        "number": "02",
+        "color": "#EFAE00",
+        "type": "",
+        "title": "Strategic Pricing",
+        "description": "Understand the 7 pricing games & associated AI tools to deliver 3-5% impact.",
+        "highlight": "<path opacity=\"1\" d=\"M155.242 263.876L105.252 337.906L140.787 361.902L190.778 287.872L155.242 263.876Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M155.242 263.876L105.252 337.906L140.787 361.902L190.778 287.872L155.242 263.876Z\" fill=\"white\"/>        ",
+        "about": "As pricing power has become more challenging and the days ahead are uncertain, pricing is top of mind for CEOs. BCG’s strategic pricing framework – the 7 games and our insights in how to win them – helps companies succeed in these times. Discover the pricing game you are playing in, and deep dive into the AI Pricing solution that will enable you to win this game. The content will be supported by BCG's recently launched \"Game Changer\" book..",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Energy",
+          "Financial Institutions",
+          "Health Care",
+          "Industrial Goods",
+          "Public Sector",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          { "name": "Arnab Sinha", "role": "" }
+        ]
+      },
+      {
+        "id": "cx03",
+        "area": "cx",
+        "number": "03",
+        "color": "#EFAE00",
+        "type": "",
+        "title": "Customer Experience & Service",
+        "description": "Enhance customer experience with next-gen AI-driven engagement.",
+        "highlight": "<path opacity=\"1\" d=\"M114.131 236.128L64.1406 310.158L99.6759 334.154L149.666 260.124L114.131 236.128Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M114.131 236.128L64.1406 310.158L99.6759 334.154L149.666 260.124L114.131 236.128Z\" fill=\"white\"/>        ",
+        "about": "Conversational Commerce and GenAI in contact centers are two ways that companies can improve the customer experience, boost customer engagement, and cultivate loyalty. It can empower customers to make purchasing decisions, drive demand, ensure efficient sales, and is a great blend of eCommerce and other social channels. It can also reduce the total amount of overhead that a brand needs to invest. Explore how these tactics can further support your next-gen customer experience.",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Financial Institutions",
+          "Insurance",
+          "Public Sector",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          { "name": "Karen Lellouche", "role": "" }
+        ]
+      },
+      {
+        "id": "cx04",
+        "area": "cx",
+        "number": "04",
+        "color": "#EFAE00",
+        "type": "Strategic Partners & Collaborators",
+        "title": "Salesforce",
+        "description": "Go-to-market excellence powered by trusted CRM+AI+Data.",
+        "highlight": "<path opacity=\"1\" d=\"M272.763 42.0561L215.92 110.964L248.996 138.249L305.84 69.3417L272.763 42.0561Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M272.763 42.0561L215.92 110.964L248.996 138.249L305.84 69.3417L272.763 42.0561Z\" fill=\"white\"/>        ",
+        "about": "Salesforce & BCG partner to accelerate business transformation leveraging Generative AI as rhythm of business. Experience how we enable a step change in seller productivity, marketing personalization & customer experience. Meet the BCG team driving Salesforce transformation and learn about BCG's differentiated ability to manage complexity and deliver value at lower cost.",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Energy",
+          "Financial Institutions",
+          "Health Care",
+          "Industrial Goods",
+          "Insurance",
+          "Public Sector",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          { "name": "Bryan Gauch", "role": "" }
+        ]
+      },
+      {
+        "id": "cx05",
+        "area": "cx",
+        "number": "05",
+        "color": "#EFAE00",
+        "type": "",
+        "title": "NextGen Sales",
+        "description": "Advance the art and science of Sales by leveraging (Gen)AI, data and tech.",
+        "highlight": "<path opacity=\"1\" d=\"M311.021 73.6343L254.178 142.542L287.254 169.828L344.098 100.92L311.021 73.6343Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M311.021 73.6343L254.178 142.542L287.254 169.828L344.098 100.92L311.021 73.6343Z\" fill=\"white\"/>        ",
+        "about": "Sales organizations are expected to provide the best experience to their customers. The tech stack is overwhelmingly broad, and sales companies are struggling to decide the best solution for them and how to maximize value. In our booth, you can experience first-hand the power and opportunity of a sales rep empowered by the latest technology on (Gen)AI/AI and data. You can sell it! Come play the game of Sales!",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Financial Institutions",
+          "Health Care",
+          "Industrial Goods",
+          "Insurance",
+          "Public Sector",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          { "name": "Phillip Andersen", "role": "" }
+        ]
+      },
+      {
+        "id": "cx06",
+        "area": "cx",
+        "number": "06",
+        "color": "#EFAE00",
+        "type": "",
+        "title": "Personalization",
+        "description": "Use Personalization to unlock growth from AI and (Gen)AI.",
+        "highlight": "<path opacity=\"1\" d=\"M369.951 243.401L293.016 198.01L271.227 234.94L348.163 280.331L369.951 243.401Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M369.951 243.401L293.016 198.01L271.227 234.94L348.163 280.331L369.951 243.401Z\" fill=\"white\"/>        ",
+        "about": "Personalization leaders are growing 10 points faster than laggards and will collectively capture a $2 trillion prize over the next 5 years. Come hear our impact stories across B2C and B2B industries. Explore L’Oreal Beauty Genius, which uses voice & face recognition for tailored beauty solutions, and (Gen)AI Marketing Ad Creation, which crafts targeted ads. Learn where you stand on the BCG Personalization Index and how to accelerate your journey.",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Financial Institutions",
+          "Health Care",
+          "Insurance",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          { "name": "Mark Abraham", "role": "" }
+        ]
+      },
+      {
+        "id": "cx07",
+        "area": "cx",
+        "number": "07",
+        "color": "#EFAE00",
+        "type": "Strategic Partners & Collaborators",
+        "title": "Adobe",
+        "description": "The enterprise technology defining digital experiences.",
+        "highlight": "<path opacity=\"1\" d=\"M228.102 204.372L217.373 191.645L210.673 197.292L221.402 210.019L228.102 204.372Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M235 213C248.255 213 259 202.255 259 189C259 175.745 248.255 165 235 165C221.746 165 211 175.745 211 189C211 191.477 211.376 193.866 212.072 196.113L210.674 197.292L215.624 203.164C216.274 204.052 216.984 204.894 217.747 205.683L221.403 210.019L222.229 209.323C225.927 211.652 230.306 213 235 213Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
+        "about": "As the creative technology leader, Adobe is the partner you can trust to help you accelerate ideation and scale content production across your enterprise with generative AI. See the advantages of putting Firefly at the heart of your content workflows.<br>Generative AI continues to revolutionize how marketing organizations can increase productivity when creating content for personalized experiences across email, display, and web.",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Health Care",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          { "name": "Alex Koster", "role": "" }
+        ]
+      },
+      {
+        "id": "cx08",
+        "area": "cx",
+        "number": "08",
+        "color": "#EFAE00",
+        "type": "Startup",
+        "title": "AlgoVerde",
+        "description": "Rethink Innovation. Boost Revenues. Powered by (Gen)AI.",
+        "highlight": "<path opacity=\"1\" d=\"M218.135 213.137L207.406 200.41L200.707 206.058L211.435 218.785L218.135 213.137Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M193 244C206.255 244 217 233.255 217 220C217 218.146 216.79 216.34 216.392 214.607L218.135 213.137L213.756 207.943C212.351 205.529 210.536 203.382 208.408 201.598L207.406 200.41L207.158 200.619C203.189 197.715 198.295 196 193 196C179.745 196 169 206.745 169 220C169 233.255 179.745 244 193 244Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
+        "about": "GenAI has revolutionized the world of innovation. What used to take months can now take hours. Forget the hassle of hundreds of meetings, customer interviews, stacks of notes.<br>Bring experts and teams together to innovate on the AlgoVerde platform to achieve revenues.<br>Faster time to market: develop new products in days!<br>Better product-market fit: validate your products before they hit the market.<br>Best marketing approach: test messaging strategies.<br>Best pricing approach: maximize the value.",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Financial Institutions",
+          "Insurance",
+          "Tech, Media & Telecom"
+        ],
+        "boothContacts": [
+          { "name": "Vladimir Jacimovic", "role": "" }
+        ]
+      },
+      {
+        "id": "cx09",
+        "area": "cx",
+        "number": "09",
+        "color": "#EFAE00",
+        "type": "Strategic Partners & Collaborators",
+        "title": "Writer",
+        "description": "Writer is the full-stack generative AI platform for enterprises.",
+        "highlight": "<path opacity=\"1\" d=\"M352.63 183.798L360.07 168.907L352.232 164.991L344.791 179.881L352.63 183.798Z\" fill=\"#21BF61\"/>        ",
+        "hitbox": "<path opacity=\"0.01\" d=\"M340 196C353.255 196 364 185.255 364 172C364 158.745 353.255 148 340 148C326.745 148 316 158.745 316 172C316 185.255 326.745 196 340 196Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
+        "about": "Writer is the full-stack generative AI platform for enterprises. We empower your entire organization to accelerate growth, increase productivity, and ensure compliance. Our platform consists of Writer-built LLMs, a Knowledge Graph that connects to your internal data, AI guardrails to enforce your rules, a flexible application layer, and an ecosystem of APIs and integrations. Come learn how Writer transforms work by delivering high-quality outputs that are accurate, compliant, and on-brand.",
+        "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Health Care",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
+        ],
+        "boothContacts": [
+          { "name": "Matt Kropp", "role": "" }
+        ]
+      }
+    ]
+  }
