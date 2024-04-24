@@ -137,7 +137,11 @@
     width: auto;
     display: flex;
     align-items: center;
-    padding: 2.5rem 2rem 1.5rem 2rem;
+    padding: 1.5rem 1rem 1rem 2rem;
+  }
+
+  #homeTitle > svg {
+    width: 6rem;
   }
   
   /* Navigator */
