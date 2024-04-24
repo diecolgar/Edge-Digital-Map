@@ -1,6 +1,6 @@
-.height-adjust {
+/* .height-adjust {
     transform: translateY(-3px);
-}
+} */
 
 #dynamic-content-container {
     display: flex;

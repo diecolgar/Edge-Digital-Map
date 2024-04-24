@@ -62,6 +62,12 @@
     position: relative;
     margin: auto;
     background-color: #EAE7E3;
+    min-height: 50vh;
+    max-height: 600px;
+  }
+
+  #interactive-map {
+    max-width: 600px;
   }
   
   #map > img {
