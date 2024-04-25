@@ -1158,7 +1158,7 @@
         ]
       },
       {
-        "id": "te02",
+        "id": "te02.1",
         "area": "te",
         "number": "02",
         "color": "#322E81",
@@ -1166,7 +1166,7 @@
         "title": "Nectry",
         "description": "Revolutionize enterprise solutions: AI-powered, rapid development.",
         "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
-        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
+        "hitbox": "",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -1183,7 +1183,7 @@
         ]
       },
       {
-        "id": "te02",
+        "id": "te02.2",
         "area": "te",
         "number": "02",
         "color": "#322E81",
@@ -1191,7 +1191,7 @@
         "title": "Pienso",
         "description": "Power generative AI with the no-code language model management platform.",
         "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
-        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
+        "hitbox": "",
         "about": "As organizations struggle to navigate the opportunities presented by (Gen)AI and Large Language Models, they are encountering constraints such as model reliability and accuracy, technical resource scarcity, data privacy concerns, and more. While there is massive potential, most solutions carry costs and risks that can outweigh the ROI. Learn how Pienso empowers nontechnical domain experts to build GenAI that is accurate, secure and cost-effective – all without writing a single line of code.",
         "relatedIndustries": [
           "Consumer Products & Retail",
@@ -1209,7 +1209,7 @@
         ]
       },
       {
-        "id": "te02",
+        "id": "te02.3",
         "area": "te",
         "number": "02",
         "color": "#322E81",
@@ -1217,7 +1217,7 @@
         "title": "Preamble",
         "description": "Control your AI risk.",
         "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
-        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
+        "hitbox": "",
         "about": "Preamble simplifies how enterprises control AI risk and ensure trust in their AI systems. Its no-code platform enables customizable AI guardrails to empower businesses to unlock AI's full potential. With a mission to provide trustworthy guardrails for generative AI systems, Preamble is committed to shaping the future of AI safety. Headquartered in Pittsburgh, Pennsylvania, and operating globally, Preamble is a veteran-led business.",
         "relatedIndustries": [
           "Consumer Products & Retail",
@@ -1235,7 +1235,7 @@
         ]
       },
       {
-        "id": "te02",
+        "id": "te02.4",
         "area": "te",
         "number": "02",
         "color": "#322E81",
@@ -1243,7 +1243,7 @@
         "title": "Salieri AI",
         "description": "Efficient and trustworthy automation for AI application building.",
         "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
-        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
+        "hitbox": "",
         "about": "Explore the power of small models, knowledge grounding, and first-principle computation with Salieri AI. Our multi-agent cooperation system offers:<br><ul><li>Autonomous AI App Building: Experience our BCG Expo Copilot built by AI in minutes, showcasing seamless integration of structured and unstructured data.</li><li>Resource-Efficient Query Handling: Learn how we handle 10,000 user queries with just 100 LLM calls.</li></ul><br>Visit our booth to discover how we're revolutionizing AI with efficiency and trustworthiness. ",
         "relatedIndustries": [
           "Consumer Products & Retail",

@@ -17,6 +17,14 @@
           ]
       },
       {
+        "title": "Front Desk",
+        "icon": "front-desk.svg",
+        "areas": [
+            "",
+            ""
+          ]
+      },
+      {
         "title": "Charging Spot",
         "icon": "charging-spot.svg",
         "areas": [
@@ -68,26 +76,10 @@
           ]
       },
       {
-        "title": "Front Desk",
-        "icon": "front-desk.svg",
-        "areas": [
-            "",
-            ""
-          ]
-      },
-      {
         "title": "Gelato Bar",
         "icon": "gelato-bar.svg",
         "areas": [
             "te",
-            ""
-          ]
-      },
-      {
-        "title": "IT Station",
-        "icon": "it-station.svg",
-        "areas": [
-            "",
             ""
           ]
       },

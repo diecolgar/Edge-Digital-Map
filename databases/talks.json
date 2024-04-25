@@ -1,19 +1,60 @@
 {
-    "entries": [
-      {
-        "title": "Talk Title",
-        "time": "11.30 AM",
-        "author": "Any Author",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "picture": "any-author.png"
-      },
-      {
-        "title": "Talk Title 2",
-        "time": "12.30 AM",
-        "author": "Any Author",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "picture": "any-author.png"
-      }
-    ]
-  }
-  
+  "entries": [
+    {
+      "title": "Joy at Work",
+      "time": "1:45 PM",
+      "author": "Debbie Lovich",
+      "description": "Double down on employee joy to drive tech adoption, while cutting employee attrition in half.",
+      "picture": "debbie.png"
+    },
+    {
+      "title": "Tech for GenAI",
+      "time": "2:00 PM",
+      "author": "Marc Schuuring",
+      "description": "With great GenAI power comes great tech responsibility.",
+      "picture": "marc.jpeg"
+    },
+    {
+      "title": "Game Changer",
+      "time": "2:15 PM",
+      "author": "Jean-Manuel Izaret",
+      "description": "How strategic pricing shapes businesses, markets, and society.",
+      "picture": "jean.jpeg"
+    },
+    {
+      "title": "Planetary Boundaries",
+      "time": "2:30 PM",
+      "author": "Charlotte Bande (Quantis)",
+      "description": "Driving meaningful change that results in net-positive outcomes for businesses and the planet.",
+      "picture": "charlotte.jpeg"
+    },
+    {
+      "title": "Reigniting creativity in business",
+      "time": "3:15 PM",
+      "author": "Alan Iny",
+      "description": "How to bring more fresh thinking and creativity to your daily challenges.",
+      "picture": "alan.png"
+    },
+    {
+      "title": "Reskilling in the age of AI",
+      "time": "3:30 PM",
+      "author": "Sagar Goel",
+      "description": "How reskilling can be a game changer for talent woes.",
+      "picture": "sagar.png"
+    },
+    {
+      "title": "Personalized!",
+      "time": "3:45 PM",
+      "author": "Mark Abraham",
+      "description": "Customer strategy in the age of AI.",
+      "picture": "mark.jpeg"
+    },
+    {
+      "title": "Future of Customer-centric Innovation",
+      "time": "4:00 PM",
+      "author": "Lauren Taylor & Lara Koslow",
+      "description": "Meeting consumer and company needs under an AI and sustainability imperative.",
+      "picture": "lauren.png"
+    }
+  ]
+}

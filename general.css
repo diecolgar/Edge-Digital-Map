@@ -233,4 +233,16 @@
         margin-top: 2rem;
       }
   }
+
+  @media screen and (min-height: 900px) {
+    :root {
+        font-size: 20px;
+    }
+
+    #page-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+      }
+  }
   

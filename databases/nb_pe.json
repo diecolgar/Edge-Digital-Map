@@ -91,15 +91,9 @@
         "hitbox": "<path opacity=\"0.01\" d=\"M98.8986 227.696L41.3086 255.475L54.6399 283.113L112.23 255.335L98.8986 227.696Z\" fill=\"white\"/>        ",
         "about": "Step into the future with our interactive booth! Explore the cutting-edge of AI enabled by Agile & Platform Operating Model for large-scale transformation. Get hands-on with our resolution room feat. interactive demos that bring governance & measurement to life. Dive into the world of Objectives & Key Results (OKRs) with our GPT-powered tools. Learn from BOSCH’s transformation triumph to see how you can revolutionize your op model. Your journey to speed & efficiency at scale starts here!",
         "relatedIndustries": [
-          "Consumer Products & Retail",
-          "Energy",
           "Financial Institutions",
-          "Health Care",
-          "Industrial Goods",
           "Insurance",
-          "Public Sector",
-          "Tech, Media & Telecom",
-          "Travel, Cities & Infrastructure"
+          "Tech, Media & Telecom"
         ],
         "boothContacts": [
           { "name": "Jaap Backx", "role": "" },
@@ -168,7 +162,7 @@
         "description": "AI-powered people & org insights and innovation.",
         "highlight": "<path opacity=\"1\" d=\"M71.5418 103.022L44.8691 94.5303L35.5601 123.77L62.2327 132.262L71.5418 103.022Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M62.8642 130.278C73.2844 127.662 81 118.232 81 107C81 93.7452 70.2548 83 57 83C43.7452 83 33 93.7452 33 107C33 111.763 34.3877 116.203 36.7808 119.936L35.5601 123.77L42.1769 125.877C46.258 129.086 51.4055 131 57 131C57.3956 131 57.789 130.99 58.18 130.971L62.2327 132.262L62.8642 130.278Z\" fill=\"#D9D9D9\"/>        ",
-        "about": "Generative AI and Digital Technology are changing the way we work. Our AI analytics help identify where the real business value lies, which use cases to apply, and their impact on skill requirements. Understanding and measuring employee sentiment, as well as encouraging adoption, are key to navigating the Gen AI transformation journey. Learn how our tools can support and propel this change, offering strategic benefits and preparing your workforce for the future.",
+        "about": "Generative AI and Digital Technology are changing the way we work. Our AI analytics help identify where the real business value lies, which use cases to apply, and their impact on skill requirements. Understanding and measuring employee sentiment, as well as encouraging adoption, are key to navigating the (Gen)AI transformation journey. Learn how our tools can support and propel this change, offering strategic benefits and preparing your workforce for the future.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -223,10 +217,14 @@
         "about": "Explore the dynamic world of change management and behavioral science and learn how to lead your organization through transformation for strong and sustainable change. Experiment with our latest tools, including the Change Energy Assessment, AI-enabled employee listening at scale, and a cutting-edge enterprise GPT for transformations.",
         "relatedIndustries": [
           "Consumer Products & Retail",
+          "Energy",
           "Financial Institutions",
           "Health Care",
+          "Industrial Goods",
           "Insurance",
-          "Public Sector"
+          "Public Sector",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
           { "name": "Kristy Ellmer", "role": "" },
@@ -247,9 +245,13 @@
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
+          "Financial Institutions",
+          "Health Care",
           "Industrial Goods",
+          "Insurance",
           "Public Sector",
-          "Tech, Media & Telecom"
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
           { "name": "Marc Gilbert", "role": "" },
@@ -289,10 +291,10 @@
         "number": "13",
         "color": "#FF54D4",
         "type": "Startup",
-        "title": "TechWolf",
+        "title": "Techwolf",
         "description": "Enable real business outcomes with skill data. Finally.",
-        "highlight": "<path opacity=\"1\" d=\"M139.099 142.081L135.246 153.354L141.181 155.382L145.034 144.11L139.099 142.081Z\" fill=\"#21BF61\"/>        ",
-        "hitbox": "<path opacity=\"0.01\" d=\"M160 179C173.255 179 184 168.255 184 155C184 141.745 173.255 131 160 131C151.421 131 143.894 135.501 139.651 142.27L139.099 142.081L137.834 145.783C137.439 146.732 137.103 147.711 136.831 148.717L135.246 153.354L136.039 153.624C136.013 154.08 136 154.538 136 155C136 168.255 146.745 179 160 179Z\" fill=\"#D9D9D9\"/>        ",
+        "highlight": "",
+        "hitbox": "",
         "about": "TechWolf infers skill data from key business systems, making it less generic and actually usable.<br>That skills data is then structured into a company-specific skill framework and individual employee skill profiles.<br>Finally, TechWolf connects and synchronizes the skill data to where the business can use it.",
         "relatedIndustries": [
           "Consumer Products & Retail",
@@ -317,8 +319,8 @@
         "type": "Startup",
         "title": "Eightfold AI",
         "description": "Talent Intelligence Platform.",
-        "highlight": "<path opacity=\"1\" d=\"M130.12 138.814L126.268 150.086L132.202 152.114L136.055 140.842L130.12 138.814Z\" fill=\"#21BF61\"/>        ",
-        "hitbox": "<path opacity=\"0.01\" d=\"M133.371 148.696C135.671 145.013 137 140.662 137 136C137 122.745 126.255 112 113 112C99.7452 112 89 122.745 89 136C89 149.255 99.7452 160 113 160C120.231 160 126.716 156.802 131.116 151.743L132.202 152.114L133.371 148.696Z\" fill=\"#D9D9D9\"/>        ",
+        "highlight": "",
+        "hitbox": "",
         "about": "Eightfold AI's market-leading Talent Intelligence Platform™ helps organizations retain top performers, upskill and reskill their workforce, recruit talent efficiently, and reach diversity goals. Eightfold's patented deep learning artificial intelligence platform is available in more than 155 countries, across 24 languages, and 20+ verticals, enabling cutting-edge enterprises to transform their talent into a competitive advantage. For more information, visit www.eightfold.ai.",
         "relatedIndustries": [
           "Consumer Products & Retail",
@@ -332,7 +334,7 @@
           "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
-          { "name": "SKaycee Bentley", "role": "" }
+          { "name": "Kaycee Bentley", "role": "" }
         ]
       }
     ]

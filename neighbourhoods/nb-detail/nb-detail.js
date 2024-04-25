@@ -268,7 +268,7 @@ function loadHitboxes(booths) {
             break;
         case 'th': // Assuming this is the (Gen)AI Path from the last screenshot
         iconPath = 'icon_th.svg';
-        text = 'Micro-Theater';
+        text = 'Micro-theater';
         break;
     }
 

@@ -1,0 +1,76 @@
+{
+    "journeys": [
+      {
+        "id": "ai",
+        "title": "(Gen)AI Path",
+        "booths": [
+          {"id": "cx01", "type": "highlight"},
+          {"id": "cx02", "type": "highlight"},
+          {"id": "cx03", "type": "highlight"},
+          {"id": "cx04", "type": "highlight"},
+          {"id": "cx05", "type": "highlight"},
+          {"id": "cx06", "type": "highlight"},
+          {"id": "cx07", "type": "highlight"},
+          {"id": "cx08", "type": "highlight"},
+          {"id": "cx09", "type": "highlight"},
+          {"id": "cs05", "type": "highlight"},
+          {"id": "te02", "type": "highlight"},
+          {"id": "te05", "type": "highlight"},
+          {"id": "te06", "type": "highlight"},
+          {"id": "te07", "type": "highlight"},
+          {"id": "te09", "type": "highlight"},
+          {"id": "te10", "type": "highlight"},
+          {"id": "te12", "type": "highlight"},
+          {"id": "te14", "type": "highlight"},
+          {"id": "te15", "type": "highlight"},
+          {"id": "pe01", "type": "highlight"},
+          {"id": "pe03", "type": "highlight"},
+          {"id": "pe05", "type": "highlight"},
+          {"id": "pe06", "type": "highlight"},
+          {"id": "pe08", "type": "highlight"},
+          {"id": "pe13", "type": "highlight"},
+          {"id": "pe14", "type": "highlight"},
+          {"id": "op01", "type": "highlight"},
+          {"id": "op02", "type": "highlight"},
+          {"id": "op03", "type": "highlight"},
+          {"id": "op04", "type": "highlight"},
+          {"id": "op05", "type": "highlight"},
+          {"id": "op06", "type": "highlight"},
+          {"id": "op07", "type": "highlight"},
+          {"id": "op08", "type": "highlight"},
+          {"id": "op09", "type": "highlight"},
+          {"id": "op10", "type": "highlight"},
+          {"id": "op12", "type": "highlight"},
+          {"id": "op13", "type": "highlight"},
+          {"id": "op14", "type": "highlight"}
+        ]
+      },
+      {
+        "id": "consumer",
+        "title": "Consumer Products & Retail",
+        "booths": [
+          {"id": "cx01", "type": "highlight"},
+          {"id": "cx02", "type": "highlight"},
+          {"id": "cx05", "type": "highlight"},
+          {"id": "cx06", "type": "highlight"},
+          {"id": "te04", "type": "highlight"},
+          {"id": "te06", "type": "highlight"},
+          {"id": "pe04", "type": "highlight"},
+          {"id": "pe08", "type": "highlight"},
+          {"id": "pe10", "type": "highlight"},
+          {"id": "op03", "type": "highlight"},
+          {"id": "te02", "type": "nonselectable"}
+        ]
+      },
+      {
+        "id": "startup",
+        "title": "Startup",
+        "booths": [
+          {"id": "cx01", "type": "highlight"},
+          {"id": "cx03", "type": "highlight"},
+          {"id": "pe04", "type": "highlight"},
+          {"id": "op04", "type": "highlight"}
+        ]
+      }
+    ]
+  }
