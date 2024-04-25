@@ -24,3 +24,25 @@ document.addEventListener('DOMContentLoaded', function() {
             container.innerHTML = `<p>Error loading services. Please try again later.</p>`;
         });
 });
+
+
+function showMapPopup() {
+    var popup = document.getElementById('map-popup');
+    popup.style.visibility = 'visible';
+    popup.style.opacity = '1';
+  
+    // Iniciar un temporizador para "fade out" después de 2 segundos
+    setTimeout(function() {
+        // Inicia la transición de opacidad a 0
+        popup.style.opacity = '0';
+  
+        // Esperar 500 ms para coincidir con la duración de la transición de opacidad
+        // y luego cambiar la visibilidad
+        setTimeout(function() {
+            popup.style.visibility = 'hidden';
+        }, 500);
+    }, 2000);
+  }
+  
+  // Añadir el evento onclick al contenedor
+  document.getElementById('map-container').onclick = showMapPopup;

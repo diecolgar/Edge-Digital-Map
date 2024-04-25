@@ -163,3 +163,25 @@ function toggleDetails(element) {
   arrow.style.transform = isExpanded ? 'rotateX(0deg)' : 'rotateX(180deg)'; // Rota la flecha cuando se expande
 }
 
+
+
+function showMapPopup() {
+  var popup = document.getElementById('map-popup');
+  popup.style.visibility = 'visible';
+  popup.style.opacity = '1';
+
+  // Iniciar un temporizador para "fade out" después de 2 segundos
+  setTimeout(function() {
+      // Inicia la transición de opacidad a 0
+      popup.style.opacity = '0';
+
+      // Esperar 500 ms para coincidir con la duración de la transición de opacidad
+      // y luego cambiar la visibilidad
+      setTimeout(function() {
+          popup.style.visibility = 'hidden';
+      }, 500);
+  }, 2000);
+}
+
+// Añadir el evento onclick al contenedor
+document.getElementById('map-container').onclick = showMapPopup;
