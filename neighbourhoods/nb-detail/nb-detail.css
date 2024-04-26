@@ -119,6 +119,11 @@
 
 }
 
+.author-image-container {
+    display: flex;
+    gap: 0.25rem;
+}
+
 .author-picture {
     max-width: 1.5rem;
     max-height: 1.5rem;

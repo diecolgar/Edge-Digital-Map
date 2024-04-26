@@ -136,7 +136,7 @@
     background-color: #323232;
     width: 2rem;
     height: 2rem;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
   }
 
   #back-text {
@@ -150,7 +150,7 @@
     align-items: center;
     gap: 0.5rem;
     background-color: #d4d4d4;
-    padding: 0.25rem 0.75rem;
+    padding: 0.1rem 0.75rem;
     border-radius: 1rem;
   }
 
@@ -318,6 +318,12 @@ nav {
   .nb-icon {
     min-width: max-content;
     max-width: 1.5rem;
+  }
+
+  /* Paths */
+
+  .keyThemesLabel {
+    font-weight: 700;
   }
 
 

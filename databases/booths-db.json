@@ -821,6 +821,26 @@
         ]
       },
       {
+        "id": "pe02",
+        "area": "pe",
+        "number": "02",
+        "color": "#FF54D4",
+        "type": "Strategic Partners & Collaborators",
+        "title": "GenAI Inside BCG: Our journey to amplify impact",
+        "description": "Experiment with BCG’s (Gen)AI tools and discover the future of our work.",
+        "highlight": "",
+        "hitbox": "",
+        "about": "Since ChatGPT took the world by storm 18mo ago, firms are navigating the (Gen)AI revolution with BCG leading the way. We’ve successfully deployed vendor solutions and developed proprietary tools to allow us to do what we do best even better through a robust change management approach, starting with a global network of (Gen)AI \"Enablement Black Belts\". Join us to learn how we champion adoption to transform our work processes, and experiment with our (Gen)AI tools to discover how we amplify our impact.</li></ul>",
+        "relatedIndustries": [
+          ""
+        ],
+        "boothContacts": [
+          { "name": "Chris Goodchild", "role": "" },
+          { "name": "Lukas Haider", "role": "" },
+          { "name": "Scott Wilder", "role": "" }
+        ]
+      },
+      {
         "id": "pe03",
         "area": "pe",
         "number": "03",
@@ -1476,7 +1496,7 @@
         "type": "<path opacity=\"1\" d=\"M175.897 312.954L162.275 336.266L185.76 349.988L199.381 326.676L175.897 312.954Z\" fill=\"#21BF61\"/>        ",
         "title": "The Quantum Revolution",
         "description": "Create business value with Quantum Technologies.",
-        "highlight": "",
+        "highlight": "<path opacity=\"1\" d=\"M175.897 312.954L162.275 336.266L185.76 349.988L199.381 326.676L175.897 312.954Z\" fill=\"#21BF61\"/>",
         "hitbox": "<path opacity=\"0.01\" d=\"M162.275 336.266L175.897 312.954L179.833 315.254C182.92 313.808 186.366 313 190 313C203.255 313 214 323.745 214 337C214 350.255 203.255 361 190 361C177.238 361 166.803 351.039 166.044 338.468L162.275 336.266Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
         "about": "Quantum technologies can unlock $450-850B by 2040. In most industries, early adopters will catch 90% of the value created. Explore the use-cases of Quantum Technologies and how and when this technology will create major impacts across multiple industries. Experience, in real-time, the look and feel of a Quantum Computer from global technology innovator IBM, alongside videos of the computer and its innerworkings, and takeaway how you and your business can get ahead.",
         "relatedIndustries": [

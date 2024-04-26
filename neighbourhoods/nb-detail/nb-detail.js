@@ -97,49 +97,50 @@ function displayAuthors(authors) {
         var time = document.createElement('div');
         time.className = 'author-time';
         time.textContent = author.time;
-        
-        // Agregar SVG de la flecha dentro del div de la hora
+
         var svgPlaceholder = document.createElement('span');
         svgPlaceholder.innerHTML = '<svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M6 9l6 6 6-6" stroke="#21BF61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-        time.appendChild(svgPlaceholder); // Añadir flecha junto a la hora
-
+        time.appendChild(svgPlaceholder);
         timeTitleContainer.appendChild(time);
-        
+
         var title = document.createElement('div');
         title.className = 'author-title';
         title.textContent = author.title;
         timeTitleContainer.appendChild(title);
-
         authorElement.appendChild(timeTitleContainer);
 
-        // Descripción inicialmente oculta
         var description = document.createElement('div');
         description.className = 'author-description';
         description.textContent = author.description;
-        description.style.display = 'none'; // Ocultar la descripción inicialmente
+        description.style.display = 'none';
         authorElement.appendChild(description);
 
-        // Agregar manejador de eventos para desplegar/replegar descripción
         timeTitleContainer.addEventListener('click', function() {
-            // Alternar visibilidad
             description.style.display = (description.style.display === 'none' ? 'block' : 'none');
-            // Rotar flecha
             svgPlaceholder.querySelector('.arrow-icon').style.transform = (description.style.display === 'block' ? 'rotate(180deg)' : 'rotate(0deg)');
         });
 
         var authorInfoContainer = document.createElement('div');
         authorInfoContainer.className = 'author-info';
 
-        var picture = document.createElement('img');
-        picture.className = 'author-picture';
-        picture.src = '../../assets/talkers/' + author.picture;
-        authorInfoContainer.appendChild(picture);
+        // Crear un contenedor para las imágenes
+        var imageContainer = document.createElement('div');
+        imageContainer.className = 'author-image-container';
+
+        // Añadir cada imagen al contenedor de imágenes
+        author.picture.forEach(function(pic) {
+            var picture = document.createElement('img');
+            picture.className = 'author-picture';
+            picture.src = '../../assets/talkers/' + pic;
+            imageContainer.appendChild(picture);
+        });
+
+        authorInfoContainer.appendChild(imageContainer);
 
         var name = document.createElement('div');
         name.className = 'author-name';
         name.textContent = author.author;
-        authorInfoContainer.appendChild(name); 
-
+        authorInfoContainer.appendChild(name);
         authorElement.appendChild(authorInfoContainer);
 
         container.appendChild(authorElement);

@@ -27,6 +27,7 @@
         {"id": "te14", "type": "highlight"},
         {"id": "te15", "type": "highlight"},
         {"id": "pe01", "type": "highlight"},
+        {"id": "pe02", "type": "highlight"},
         {"id": "pe03", "type": "highlight"},
         {"id": "pe05", "type": "highlight"},
         {"id": "pe06", "type": "highlight"},
@@ -581,7 +582,7 @@
       ]
     },
     {
-      "id": "startup",
+      "id": "startups",
       "title": "Startup",
       "booths": [
         {"id": "cx08", "type": "highlight"},
