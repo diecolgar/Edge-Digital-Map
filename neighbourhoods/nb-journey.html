@@ -57,12 +57,28 @@
     <div id="page-content-wrapper">
         <div id="map-wrapper">
 
-        <div id="map-container">
-            <a id="map-label" href="../neighbourhoods.html">
-                <!-- <img class="nb-interactive-label" src="../../assets/maps/neighbourhoods_detail_label.png" alt=""> -->
-                <img class="nb-no-interactive-label" src="../../assets/maps/neighbourhoods_detail_label_noint.png" alt="">
-            </a>
-        
+        <div id="map-label-nice">
+            <div id="label-back">
+                <a id="back-arrow" href="../neighbourhoods.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <path d="M17.332 7.33268L10.6654 13.9993L17.332 20.666" stroke="#21BF61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <div id="back-text">
+                    Industry Journeys & Collaborators
+                </div>
+            </div>
+            <div id="label-instructions">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 24 30" fill="none">
+                    <path d="M12.0026 5.66602L12.7097 4.95891C12.3191 4.56839 11.6861 4.56839 11.2955 4.95891L12.0026 5.66602ZM12.0026 16.3327L11.2955 17.0397C11.6861 17.4303 12.3191 17.4303 12.7097 17.0397L12.0026 16.3327ZM8.62883 7.62558C8.23831 8.0161 8.23831 8.64927 8.62883 9.03979C9.01935 9.43031 9.65247 9.43031 10.043 9.03979L8.62883 7.62558ZM13.9622 9.03979C14.3527 9.43031 14.9858 9.43031 15.3763 9.03979C15.7669 8.64927 15.7669 8.0161 15.3763 7.62558L13.9622 9.03979ZM10.043 12.9589C9.65247 12.5684 9.01935 12.5684 8.62883 12.9589C8.23831 13.3495 8.23831 13.9825 8.62883 14.3731L10.043 12.9589ZM15.3763 14.3731C15.7669 13.9825 15.7669 13.3495 15.3763 12.9589C14.9858 12.5684 14.3527 12.5684 13.9622 12.9589L15.3763 14.3731ZM0.335938 12.3327V17.666H2.33594V12.3327H0.335938ZM23.6693 17.666V12.3327H21.6693V17.666H23.6693ZM11.0026 5.66602V16.3327H13.0026V5.66602H11.0026ZM11.2955 4.95891L8.62883 7.62558L10.043 9.03979L12.7097 6.37312L11.2955 4.95891ZM11.2955 6.37312L13.9622 9.03979L15.3763 7.62558L12.7097 4.95891L11.2955 6.37312ZM12.7097 15.6256L10.043 12.9589L8.62883 14.3731L11.2955 17.0397L12.7097 15.6256ZM12.7097 17.0397L15.3763 14.3731L13.9622 12.9589L11.2955 15.6256L12.7097 17.0397ZM23.6693 12.3327C23.6693 5.88936 18.4459 0.666016 12.0026 0.666016V2.66602C17.3414 2.66602 21.6693 6.99394 21.6693 12.3327H23.6693ZM12.0026 29.3327C18.4459 29.3327 23.6693 24.1094 23.6693 17.666H21.6693C21.6693 23.0048 17.3414 27.3327 12.0026 27.3327V29.3327ZM0.335938 17.666C0.335938 24.1094 5.55928 29.3327 12.0026 29.3327V27.3327C6.66386 27.3327 2.33594 23.0048 2.33594 17.666H0.335938ZM2.33594 12.3327C2.33594 6.99394 6.66386 2.66602 12.0026 2.66602V0.666016C5.55928 0.666016 0.335938 5.88936 0.335938 12.3327H2.33594Z" fill="#323232"/>
+                    </svg>
+                <div id="instructions-text">
+                    Scroll down to explore relevant industry booths
+                </div>
+            </div>
+        </div>
+
+        <div id="map-container" class="smaller-map-container">
             <div id="map"> 
                 <img id="interactive-map" src="" alt="">
                 <!-- <img src="../assets/maps/neighbourhoods_hitboxes.svg" alt="" style="z-index: 10;"> -->

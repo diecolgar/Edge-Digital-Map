@@ -306,7 +306,7 @@ nav {
 
   #content-container {
     width: 100vw;
-    max-width: 600px;
+    max-width: 1000px;
   }
 
   /* Icons */
@@ -326,16 +326,19 @@ nav {
     :root {
         font-size: 20px;
     }
-
-    #page-content-wrapper {
-        display: flex;
-        flex-direction: row;
-      }
   }
 
-  @media screen and (min-height: 900px) {
+  @media screen and (min-height: 1200px) {
     :root {
         font-size: 20px;
+    }
+
+    #map-container {
+      max-width: 900px;
+    }
+
+    .smaller-map-container {
+      max-width: 600px !important;
     }
 
     #page-content-wrapper {
