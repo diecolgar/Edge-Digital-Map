@@ -82,7 +82,7 @@
         ],
         "boothContacts": [
           { "name": "Martin Feth", "role": "" },
-          { "name": "VMarc Schmidt", "role": "" }
+          { "name": "Marc Schmidt", "role": "" }
         ]
       },
       {
@@ -182,7 +182,7 @@
         "description": "Future-proof food & nature: Capturing value through systems transformation.",
         "highlight": "<path opacity=\"1\" d=\"M78.154 101.586L41.9277 102.791L43.0877 137.85L79.314 136.645L78.154 101.586Z\" fill=\"#21BF61\"/>",
         "hitbox": "<path opacity=\"0.01\" d=\"M79.0549 128.813C82.7564 124.59 85 119.057 85 113C85 99.7452 74.2548 89 61 89C47.7452 89 37 99.7452 37 113C37 118.968 39.178 124.426 42.7825 128.625L43.0877 137.85L79.314 136.645L79.0549 128.813Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
-        "about": "TGlobal food and nature systems face stress from climate, geopolitics, and conflicts. On top, agriculture contributes to 1/3rd of global emissions and significant biodiversity decline. Transforming food systems is crucial for resilience and growth across industries, from industrials to CPGs, banks, and public sector. BCG and Quantis offer sustainable solutions throughout the value chain, including production, consumption, and waste management.",
+        "about": "Global food and nature systems face stress from climate, geopolitics, and conflicts. On top, agriculture contributes to 1/3rd of global emissions and significant biodiversity decline. Transforming food systems is crucial for resilience and growth across industries, from industrials to CPGs, banks, and public sector. BCG and Quantis offer sustainable solutions throughout the value chain, including production, consumption, and waste management.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -275,7 +275,7 @@
           "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
-          { "name": "Matt Silver", "role": "" }
+          { "name": "Bill Musiak", "role": "" }
         ]
       },
       {
@@ -311,7 +311,7 @@
         "description": "Understand the 7 pricing games & associated AI tools to deliver 3-5% impact.",
         "highlight": "<path opacity=\"1\" d=\"M155.242 263.876L105.252 337.906L140.787 361.902L190.778 287.872L155.242 263.876Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M155.242 263.876L105.252 337.906L140.787 361.902L190.778 287.872L155.242 263.876Z\" fill=\"white\"/>        ",
-        "about": "As pricing power has become more challenging and the days ahead are uncertain, pricing is top of mind for CEOs. BCG’s strategic pricing framework – the 7 games and our insights in how to win them – helps companies succeed in these times. Discover the pricing game you are playing in, and deep dive into the AI Pricing solution that will enable you to win this game. The content will be supported by BCG's recently launched \"Game Changer\" book..",
+        "about": "As pricing power has become more challenging and the days ahead are uncertain, pricing is top of mind for CEOs. BCG’s strategic pricing framework – the 7 games and our insights in how to win them – helps companies succeed in these times. Discover the pricing game you are playing in, and deep dive into the AI Pricing solution that will enable you to win this game. The content will be supported by BCG's recently launched \"Game Changer\" book.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -440,7 +440,7 @@
           "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
-          { "name": "Alex Koster", "role": "" }
+          { "name": "Matt Kropp", "role": "" }
         ]
       },
       {
@@ -482,7 +482,7 @@
           "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
-          { "name": "Matt Kropp", "role": "" }
+          { "name": "Alex Baxter", "role": "" }
         ]
       },
       {
@@ -517,7 +517,7 @@
         "description": "AMAZON + BCG: Unlocking potential. Reshaping industries.",
         "highlight": "<path opacity=\"1\" d=\"M321.518 29.2297L308.053 91.8779L338.119 98.34L351.584 35.6918L321.518 29.2297Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M321.518 29.2297L308.053 91.8779L338.119 98.34L351.584 35.6918L321.518 29.2297Z\" fill=\"white\"/>        ",
-        "about": "Multi facet partnership (telecommunications, insurance, automotive) focusing on verticalized cloud-based Gen AI offering to address significant client problems and create exponential value for customers. Together they bring a wealth of experience and deep expertise in tech innovation, paving the way for transformation.",
+        "about": "Multi facet partnership (telecommunications, insurance, automotive) focusing on verticalized cloud-based (Gen)AI offerings to address significant client problems and create exponential value for customers. Together we bring a wealth of experience and deep expertise in tech innovation, paving the way for transformation.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -562,7 +562,7 @@
         "description": "Unleash the full potential of service & support teams with AI.",
         "highlight": "<path opacity=\"1\" d=\"M346.114 202.784L348.523 170.814L317.858 168.503L315.448 200.473L346.114 202.784Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M317.45 173.912C311.706 178.297 308 185.216 308 193C308 206.255 318.745 217 332 217C345.255 217 356 206.255 356 193C356 185.983 352.988 179.669 348.187 175.28L348.523 170.815L339.254 170.116C336.966 169.391 334.529 169 332 169C330.731 169 329.486 169.099 328.27 169.288L317.858 168.503L317.45 173.912Z\" fill=\"#D9D9D9\"/>        ",
-        "about": "Digital & AI at work to boost efficiency, speed & customer outcomes in (field) service & support operations. Three avant-garde tools mark the next level of E2E process discovery and performance improvement:\n- E2Epro AI (BGC x Celonis) - process x-ray scan & rapid improvement\n- FieldSOx - field force dispatch & routing optimization\n- Technician Copilot - GenAI technician support\nMust-know offerings for organizations concerned with cost advantage, digitization/AI, and superior customer experience.",
+        "about": "Digital & AI at work to boost efficiency, speed & customer outcomes in (field) service & support operations. Three avant-garde tools mark the next level of E2E process discovery and performance improvement:<br><ul><li>E2Epro AI (BGC x Celonis): Process x-ray scan & rapid improvement</li><li>FieldSOx: Field force dispatch & routing optimization</li><li>Technician Copilot: (Gen)AI technician support.</li></ul><br>Must-know offerings for organizations concerned with cost advantage, digitization/AI, and superior customer experience.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -585,7 +585,7 @@
         "color": "#FF6000",
         "type": "",
         "title": "Manufacturing - Data, Digital & AI",
-        "description": "Transform manufacturing with digitally enhanced, AI-powered solutions",
+        "description": "Transform manufacturing with digitally enhanced, AI-powered solutions.",
         "highlight": "<path opacity=\"1\" d=\"M338.708 302.852H274.629V336.093H338.708V302.852Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M338.708 302.852H274.629V336.093H338.708V302.852Z\" fill=\"white\"/>        ",
         "about": "See the future of manufacturing where we showcase MFG AI. MFG AI is BCG’s suite of capabilities that help manufacturers reduce cost and increase productivity through digital tools on the shop floor. Dive into our comprehensive approach that leverages data, digital advancements, and AI to revolutionize manufacturing. Discover the latest breakthroughs from our collaborator, Honeywell, who will show how to accelerate asset reliability by improving performance uptime with end-to-end asset performance management.",
@@ -648,7 +648,7 @@
         "color": "#FF6000",
         "type": "Strategic Partners & Collaborators",
         "title": "Palantir",
-        "description": "Activate full-spectrum AI to power your enterprise operations and decisions",
+        "description": "Activate full-spectrum AI to power your enterprise operations and decisions.",
         "highlight": "<path opacity=\"1\" d=\"M121.943 211.397L92.8203 224.187L105.186 252.344L134.309 239.554L121.943 211.397Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M130.734 231.413L134.309 239.554L130.142 241.384C127.346 251.54 118.044 259 107 259C93.7452 259 83 248.255 83 235C83 221.745 93.7452 211 107 211C110.738 211 114.276 211.854 117.43 213.379L121.943 211.397L125.704 219.96C128.308 223.194 130.09 227.117 130.734 231.413Z\" fill=\"#D9D9D9\"/>        ",
         "about": "With a multitude of AI solutions on the market, it can be difficult to identify how AI can be leveraged effectively in the context of your enterprise. Palantir’s Artificial Intelligence Platform (AIP) powers AI-assisted decision making — from war zones to factory floors, bringing full spectrum AI to life across a wide range of enterprises. Attend an AIP Bootcamp to move past demos, get handson-keyboard, push to production, and go from zero to use case in a matter of days.",
@@ -671,7 +671,7 @@
         "color": "#FF6000",
         "type": "",
         "title": "R&D: Better, Faster, Cheaper",
-        "description": "Revolutionizing Research & Development through the power of (Gen)AI",
+        "description": "Revolutionizing Research & Development through the power of (Gen)AI.",
         "highlight": "<path opacity=\"1\" d=\"M156.734 196.591L127.611 209.381L139.977 237.538L169.1 224.748L156.734 196.591Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M155 238C168.255 238 179 227.255 179 214C179 200.745 168.255 190 155 190C143.997 190 134.724 197.404 131.89 207.502L127.611 209.381L131.294 217.766C131.95 221.929 133.677 225.737 136.183 228.899L139.977 237.538L144.461 235.568C147.643 237.126 151.219 238 155 238Z\" fill=\"#D9D9D9\"/>        ",
         "about": "AI, ML and GenAI are beginning to impact R&D in many industries. Come explore how companies are using our AI tools like Development.AI and Drug.AI to expand what's possible in biopharma and attract more investments in a rapidly growing space.",
@@ -690,10 +690,10 @@
         "color": "#FF6000",
         "type": "",
         "title": "Procurement",
-        "description": "Master procurement cost excellence with GenAI",
+        "description": "Master procurement cost excellence with (Gen)AI.",
         "highlight": "<path opacity=\"1\" d=\"M198.224 189.309L217.781 163.904L193.413 145.145L173.856 170.55L198.224 189.309Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M190.405 149.052C177.894 149.873 168 160.281 168 173C168 186.255 178.745 197 192 197C205.255 197 216 186.255 216 173C216 170.982 215.751 169.023 215.282 167.151L217.781 163.904L211.6 159.146C208.833 155.239 204.928 152.196 200.368 150.499L193.413 145.145L190.405 149.052Z\" fill=\"#D9D9D9\"/>        ",
-        "about": "Join our Procurement booth, where we will reveal the secrets of how industry leaders master procurement cost excellence and what they do differently to unlock maximum value and efficiency. We'll present practical and proven Gen AI solutions that have transformed procurement processes, showcasing how Gen AI can help achieve higher savings, accelerate operations and free up buyers' capacity. Explore actionable tools and strategies to advance procurement value delivery.",
+        "about": "Join our Procurement booth, where we will reveal the secrets of how industry leaders master procurement cost excellence and what they do differently to unlock maximum value and efficiency. We'll present practical and proven (Gen)AI solutions that have transformed procurement processes, showcasing how (Gen)AI can help achieve higher savings, accelerate operations and free up buyers' capacity. Explore actionable tools and strategies to advance procurement value delivery.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -715,7 +715,7 @@
         "color": "#FF6000",
         "type": "",
         "title": "Virtual Twins",
-        "description": "Harness the power of Dassault & BCG to speed up product innovation",
+        "description": "Harness the power of Dassault & BCG to speed up product innovation.",
         "highlight": "<path opacity=\"1\" d=\"M220.406 159.689L239.963 134.284L215.595 115.525L196.037 140.929L220.406 159.689Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M223 157C236.255 157 247 146.255 247 133C247 119.745 236.255 109 223 109C209.745 109 199 119.745 199 133C199 134.262 199.097 135.501 199.285 136.711L196.037 140.929L203.025 146.309C205.928 150.657 210.213 154.005 215.253 155.722L220.405 159.689L222.48 156.994C222.653 156.998 222.826 157 223 157Z\" fill=\"#D9D9D9\"/>        ",
         "about": "Dassault Systems and BCG are working together to reshape the new product innovation process. Our collaboration aims to drastically reduce time to market through the combined power of BCG’s strategic transformation, ability to help customers to size effort, and deliver on the value case and DS’ scientifically backed, augmented virtual twin end-to-end platform.",
@@ -738,7 +738,7 @@
         "color": "#FF6000",
         "type": "Strategic Partners & Collaborators",
         "title": "Kinaxis",
-        "description": "Powering the world's supply chains",
+        "description": "Powering the world's supply chains.",
         "highlight": "<path opacity=\"1\" d=\"M288.272 127.339L276.896 123.597L274.927 129.584L286.302 133.326L288.272 127.339Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M293 136C304.046 136 313 127.046 313 116C313 104.954 304.046 96 293 96C281.954 96 273 104.954 273 116C273 119.836 274.08 123.42 275.953 126.465L274.927 129.584L280.103 131.286C283.585 134.227 288.085 136 293 136Z\" fill=\"#D9D9D9\"/>        ",
         "about": "Kinaxis is a global leader in supply chain management. We serve supply chains and the people who manage them in service of humanity. We're trusted by renowned global brands to provide the agility and predictability needed to navigate today’s disruption. We combine our concurrency technique with a human-centered approach to AI to empower businesses to orchestrate their end-to-end supply chain network, from multi-year strategic planning through down-to-the-second execution and last mile delivery.",
@@ -760,7 +760,7 @@
         "color": "#FF6000",
         "type": "Startup",
         "title": "Altana",
-        "description": "Altana.ai has created a shared source of truth for global Supply Chain risk",
+        "description": "Altana.ai has created a shared source of truth for global Supply Chain risk.",
         "highlight": "<path opacity=\"1\" d=\"M286.502 136.487L275.127 132.745L273.157 138.732L284.533 142.474L286.502 136.487Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M267 169C278.046 169 287 160.046 287 149C287 145.997 286.338 143.148 285.152 140.592L286.502 136.487L280.938 134.657C277.336 131.156 272.42 129 267 129C255.954 129 247 137.954 247 149C247 160.046 255.954 169 267 169Z\" fill=\"#D9D9D9\"/>        ",
         "about": "The Altana Atlas is the world's only dynamic, intelligent map of the global supply chain. We apply proprietary AI and ML models to billions of data points to enable customers to see their supply chains all the way to the soil, surface relevant sanction alerts & compliance recommendations, and collaborate simultaneously with internal & external stakeholders. By utilizing the Atlas, enterprises, governments, & LSPs all contribute to a globalization that is more resilient, secure, and sustainable.",
@@ -784,7 +784,7 @@
         "description": "Cleanse & enrich procurement data to deliver actionable insights using AI",
         "highlight": "<path opacity=\"1\" d=\"M261.567 200.083L253.213 191.504L248.698 195.901L257.052 204.48L261.567 200.083Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M271 210C282.045 210 291 201.046 291 190C291 178.954 282.045 170 271 170C259.954 170 251 178.954 251 190C251 191.153 251.097 192.282 251.284 193.382L248.697 195.901L257.052 204.48L257.127 204.407C260.723 207.87 265.613 210 271 210Z\" fill=\"#D9D9D9\"/>        ",
-        "about": "Sievo automates procurement data cleansing, enrichment and analytics, solving the \"dirty data\" challenge delivering actionable insights, forecasting, and ESG analytics. Trusted by industry leaders like BCG, Diageo, Total Energies and Apax Partners, Sievo manages $1+ trillion annually. As BCG's premier partner for Spend, CO2, and ESG cubes, Sievo delivers quick-cubes in ~4 days and expert cubes in 2-6 weeks. Recognized as #1 in Analytics, NPS, TCO, Innovation, GenAI, and Value by SpendMatters.",
+        "about": "Sievo automates procurement data cleansing, enrichment and analytics, solving the \"dirty data\" challenge delivering actionable insights, forecasting, and ESG analytics.<br> Trusted by industry leaders like BCG, Diageo, Total Energies and Apax Partners, Sievo manages $1+ trillion annually. As BCG's premier partner for Spend, CO2, and ESG cubes, Sievo delivers quick-cubes in ~4 days and expert cubes in 2-6 weeks. Recognized as #1 in Analytics, NPS, TCO, Innovation, GenAI, and Value by SpendMatters.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Industrial Goods",
@@ -804,7 +804,7 @@
         "description": "Transforming the future of business with generative AI.",
         "highlight": "<path opacity=\"1\" d=\"M351.202 157.324L287.604 163.919L290.768 194.441L354.367 187.846L351.202 157.324Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M351.202 157.324L287.604 163.919L290.768 194.441L354.367 187.846L351.202 157.324Z\" fill=\"white\"/>        ",
-        "about": "The Microsoft and BCG alliance combines the transformative power of Microsoft AI solutions with leading BCG AI transformation, value creation, and build capabilities. Through this collaboration, we are uniquely positioned to enable clients to efficiently scale and embrace how businesses operate and people work using generative AI. With deep industry expertise, leading AI and cloud solutions, and unparalleled enterprise relationships, we unlock value and transform businesses, together. Meet with Microsoft and BCG at BCG Edge and discover how together we:<br><ul><li>Enable GenAI to transform everyday tasks and productivity.</li><li>Reshape critical functions and workflows with AI.</li><li>Invent AI-powered business models and customer experiences.</li></ul",
+        "about": "The Microsoft and BCG alliance combines the transformative power of Microsoft AI solutions with leading BCG AI transformation, value creation, and build capabilities. Through this collaboration, we are uniquely positioned to enable clients to efficiently scale and embrace how businesses operate and people work using generative AI. With deep industry expertise, leading AI and cloud solutions, and unparalleled enterprise relationships, we unlock value and transform businesses, together. Meet with Microsoft and BCG at BCG Edge and discover how together we:<br><ul><li>Enable GenAI to transform everyday tasks and productivity.</li><li>Reshape critical functions and workflows with AI.</li><li>Invent AI-powered business models and customer experiences.</li></ul>",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -962,7 +962,7 @@
         "description": "AI-powered people & org insights and innovation.",
         "highlight": "<path opacity=\"1\" d=\"M71.5418 103.022L44.8691 94.5303L35.5601 123.77L62.2327 132.262L71.5418 103.022Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M62.8642 130.278C73.2844 127.662 81 118.232 81 107C81 93.7452 70.2548 83 57 83C43.7452 83 33 93.7452 33 107C33 111.763 34.3877 116.203 36.7808 119.936L35.5601 123.77L42.1769 125.877C46.258 129.086 51.4055 131 57 131C57.3956 131 57.789 130.99 58.18 130.971L62.2327 132.262L62.8642 130.278Z\" fill=\"#D9D9D9\"/>        ",
-        "about": "Generative AI and Digital Technology are changing the way we work. Our AI analytics help identify where the real business value lies, which use cases to apply, and their impact on skill requirements. Understanding and measuring employee sentiment, as well as encouraging adoption, are key to navigating the Gen AI transformation journey. Learn how our tools can support and propel this change, offering strategic benefits and preparing your workforce for the future.",
+        "about": "(Gen)AI and Digital Technology are changing the way we work. Our AI analytics help identify where the real business value lies, which use cases to apply, and their impact on skill requirements. Understanding and measuring employee sentiment, as well as encouraging adoption, are key to navigating the (Gen)AI transformation journey. Learn how our tools can support and propel this change, offering strategic benefits and preparing your workforce for the future.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -1057,11 +1057,11 @@
         "number": "12",
         "color": "#FF54D4",
         "type": "",
-        "title": "Strategy for the Future",
-        "description": "Seize the future today with technology & human creativity.",
+        "title": "Strategy of the Future",
+        "description": "Strategically seize the future today with technology & human creativity.",
         "highlight": "<path opacity=\"1\" d=\"M232.733 159.729L249.293 135.715L224.031 118.295L207.471 142.309L232.733 159.729Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M211.001 144.743C211 144.828 210.999 144.914 210.999 145C210.999 158.255 221.745 169 234.999 169C248.254 169 258.999 158.255 258.999 145C258.999 131.745 248.254 121 234.999 121C232.941 121 230.943 121.259 229.037 121.746L224.031 118.294L207.471 142.309L211.001 144.743Z\" fill=\"#D9D9D9\"/>        ",
-        "about": "The What and Why: BCG’s 60-year history has always begun with Strategy. For decades, it’s been deeply ingrained in our firm’s DNA, brand, and value proposition. While we can be proud of our roots, the truth is: Strategy has evolved. In this ever-changing new world, Strategy is now predominantly a capability to make sense of the shifts occurring globally. Only once you’ve embraced this capability can you think strategically to gain and sustain competitive advantage.",
+        "about": "The future is already here.<br>To win the <i>future</i> of the future, a good strategy is crucial. Strategy is now a capability that enables you to navigate global shifts, anticipate shocks, seize advantage.<br>This starts with a shift in HOW you think.<br>Enter the BCG Brain with us, where you'll discover why a balance of the left/right brains (or, art AND science) is vital to winning. Test our new AI Market Sensing Dashboard and join exclusive programming to inspire you for the strategic challenges ahead.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -1126,7 +1126,7 @@
           "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
-          { "name": "SKaycee Bentley", "role": "" }
+          { "name": "Kaycee Bentley", "role": "" }
         ]
       },
       {
@@ -1167,6 +1167,7 @@
         "description": "Revolutionize enterprise solutions: AI-powered, rapid development.",
         "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "",
+        "about": "Nectry, an MIT startup, is a next-gen no-code application development platform. It enables organizations to rapidly build enterprise software (10 X faster) while guaranteeing the application is efficient, reliable and scalable and meets the highest standards in security and compliance. With an AI-powered interface, users can effortlessly design custom applications: a conversational bot translates simple English into configurations of Nectry's functional components.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -1192,7 +1193,7 @@
         "description": "Power generative AI with the no-code language model management platform.",
         "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "",
-        "about": "As organizations struggle to navigate the opportunities presented by (Gen)AI and Large Language Models, they are encountering constraints such as model reliability and accuracy, technical resource scarcity, data privacy concerns, and more. While there is massive potential, most solutions carry costs and risks that can outweigh the ROI. Learn how Pienso empowers nontechnical domain experts to build GenAI that is accurate, secure and cost-effective – all without writing a single line of code.",
+        "about": "As organizations struggle to navigate the opportunities presented by (Gen)AI and Large Language Models, they are encountering constraints such as model reliability and accuracy, technical resource scarcity, data privacy concerns, and more. While there is massive potential, most solutions carry costs and risks that can outweigh the ROI. Learn how Pienso empowers nontechnical domain experts to build (Gen)AI that is accurate, secure and cost-effective – all without writing a single line of code.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -1324,7 +1325,7 @@
         "description": "SAP Business AI: Revolutionary technology. Real-world results.",
         "highlight": "<path opacity=\"1\" d=\"M318.451 162.257L315.715 189.318L372.126 195.022L374.862 167.961L318.451 162.257Z\" fill=\"#21BF61\"/>        ",
         "hitbox": "<path opacity=\"0.01\" d=\"M318.451 162.257L315.715 189.318L372.126 195.022L374.862 167.961L318.451 162.257Z\" fill=\"white\"/>        ",
-        "about": "Tailored to your unique data landscape and industry nuances, SAP Business AI enables smarter decisions and efficiencies at scale:<br><ul><li>AI delivered in the context of your business processes,</li><li>AAI trained on the industry’s broadest business datasets,</li><li>AAI built on leading ethics and data privacy standards.</li></ul><br>ASAP provides AI capabilities embedded in our applications, empowering your business processes. Together with BCG, we can revolutionize your business for today, and tomorrow.",
+        "about": "Tailored to your unique data landscape and industry nuances, SAP Business AI enables smarter decisions and efficiencies at scale:<br><ul><li>AI delivered in the context of your business processes,</li><li>AI trained on the industry’s broadest business datasets,</li><li>AI built on leading ethics and data privacy standards.</li></ul><br>SAP provides AI capabilities embedded in our applications, empowering your business processes. Together with BCG, we can revolutionize your business for today, and tomorrow.",
         "relatedIndustries": [
           "Consumer Products & Retail",
           "Energy",
@@ -1337,9 +1338,7 @@
           "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
-          { "name": "Daniel Schlecht", "role": "" },
-          { "name": "Ted Kubit", "role": "" },
-          { "name": "Loic Mesnage", "role": "" }
+          { "name": "Ted Kubit", "role": "" }
         ]
       },
       {

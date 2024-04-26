@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const hitboxMap = document.querySelector('#hitbox-map');
                 const highlightMap = document.querySelector('#highlight-map');
                 const namesMap = document.querySelector('#interactive-map-names');
-                const mapLabel = document.querySelector('#map-label'); 
+                const mapLabel = document.querySelector('#back-arrow'); 
 
                 // Configurando el título y la descripción del booth
                 dynamicContentContainer.innerHTML = `

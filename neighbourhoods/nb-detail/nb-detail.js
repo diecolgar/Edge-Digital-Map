@@ -283,10 +283,6 @@ function cambiarSrcImagen() {
         var imagen = document.querySelector('#interactive-map'); 
         imagen.src = "../../assets/maps/nb_" + parametroNB + ".png"; 
     }
-    if (parametroNB === 'th') {
-        document.querySelector('.nb-interactive-label').style.display = 'none'
-        document.querySelector('.nb-no-interactive-label').style.display = 'flex'
-    }
 }
 
 window.onload = cambiarSrcImagen;
