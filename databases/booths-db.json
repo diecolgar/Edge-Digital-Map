@@ -27,19 +27,20 @@
         "number": "02",
         "color": "#197A56",
         "type": "",
-        "title": "Demand-Driven Sustainable Innovation",
-        "description": "Innovate, design, and market green products that sell.",
-        "highlight": "<path opacity=\"1\" d=\"M309.933 313.174L293.699 380.146L327.696 388.429L343.93 321.458L309.933 313.174Z\" fill=\"#21BF61\"/>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M309.933 313.174L293.699 380.146L327.696 388.429L343.93 321.458L309.933 313.174Z\" fill=\"white\"/>",
-        "about": "Businesses struggle to balance carbon reduction with commercial performance, while customers navigate the trade-offs between fulfilling their core needs and sustainability. What if radical product innovation is possible without compromising customer preferences, performance, sustainability, or profitability? Join us to learn how to turn sustainability into a value driver and dive into our immersive AR to experience Accelerated Product Innovation framework deployment!",
+        "title": "Sustainable Food & Nature Solutions",
+        "description": "Future-proof food & nature: Capturing value through systems transformation.",
+        "highlight": "<path opacity=\"1\" d=\"M78.154 101.586L41.9277 102.791L43.0877 137.85L79.314 136.645L78.154 101.586Z\" fill=\"#21BF61\"/>",
+        "hitbox": "<path opacity=\"0.01\" d=\"M79.0549 128.813C82.7564 124.59 85 119.057 85 113C85 99.7452 74.2548 89 61 89C47.7452 89 37 99.7452 37 113C37 118.968 39.178 124.426 42.7825 128.625L43.0877 137.85L79.314 136.645L79.0549 128.813Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
+        "about": "Global food and nature systems face stress from climate, geopolitics, and conflicts. On top, agriculture contributes to 1/3rd of global emissions and significant biodiversity decline. Transforming food systems is crucial for resilience and growth across industries, from industrials to CPGs, banks, and public sector. BCG and Quantis offer sustainable solutions throughout the value chain, including production, consumption, and waste management.",
         "relatedIndustries": [
           "Consumer Products & Retail",
-          "Industrial Goods"
+          "Energy",
+          "Financial Institutions",
+          "Industrial Goods",
+          "Public Sector"
         ],
         "boothContacts": [
-          { "name": "Mikael Le Mouellic", "role": "" },
-          { "name": "Lauren Taylor", "role": "" },
-          { "name": "Antoine Gourevitch", "role": "" }
+          { "name": "Shalini Unnikrishnan", "role": "" }
         ]
       },
       {
@@ -178,20 +179,19 @@
         "number": "09",
         "color": "#197A56",
         "type": "",
-        "title": "Sustainable Food & Nature Solutions",
-        "description": "Future-proof food & nature: Capturing value through systems transformation.",
-        "highlight": "<path opacity=\"1\" d=\"M78.154 101.586L41.9277 102.791L43.0877 137.85L79.314 136.645L78.154 101.586Z\" fill=\"#21BF61\"/>",
-        "hitbox": "<path opacity=\"0.01\" d=\"M79.0549 128.813C82.7564 124.59 85 119.057 85 113C85 99.7452 74.2548 89 61 89C47.7452 89 37 99.7452 37 113C37 118.968 39.178 124.426 42.7825 128.625L43.0877 137.85L79.314 136.645L79.0549 128.813Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>        ",
-        "about": "Global food and nature systems face stress from climate, geopolitics, and conflicts. On top, agriculture contributes to 1/3rd of global emissions and significant biodiversity decline. Transforming food systems is crucial for resilience and growth across industries, from industrials to CPGs, banks, and public sector. BCG and Quantis offer sustainable solutions throughout the value chain, including production, consumption, and waste management.",
+        "title": "Demand-Driven Sustainable Innovation",
+        "description": "Innovate, design, and market green products that sell.",
+        "highlight": "<path opacity=\"1\" d=\"M309.933 313.174L293.699 380.146L327.696 388.429L343.93 321.458L309.933 313.174Z\" fill=\"#21BF61\"/>",
+        "hitbox": "<path opacity=\"0.01\" d=\"M309.933 313.174L293.699 380.146L327.696 388.429L343.93 321.458L309.933 313.174Z\" fill=\"white\"/>",
+        "about": "Businesses struggle to balance carbon reduction with commercial performance, while customers navigate the trade-offs between fulfilling their core needs and sustainability. What if radical product innovation is possible without compromising customer preferences, performance, sustainability, or profitability? Join us to learn how to turn sustainability into a value driver and dive into our immersive AR to experience Accelerated Product Innovation framework deployment!",
         "relatedIndustries": [
           "Consumer Products & Retail",
-          "Energy",
-          "Financial Institutions",
-          "Industrial Goods",
-          "Public Sector"
+          "Industrial Goods"
         ],
         "boothContacts": [
-          { "name": "Shalini Unnikrishnan", "role": "" }
+          { "name": "Mikael Le Mouellic", "role": "" },
+          { "name": "Lauren Taylor", "role": "" },
+          { "name": "Antoine Gourevitch", "role": "" }
         ]
       },
       {
@@ -821,26 +821,6 @@
         ]
       },
       {
-        "id": "pe02",
-        "area": "pe",
-        "number": "02",
-        "color": "#FF54D4",
-        "type": "Strategic Partners & Collaborators",
-        "title": "GenAI Inside BCG: Our journey to amplify impact",
-        "description": "Experiment with BCG’s (Gen)AI tools and discover the future of our work.",
-        "highlight": "",
-        "hitbox": "",
-        "about": "Since ChatGPT took the world by storm 18mo ago, firms are navigating the (Gen)AI revolution with BCG leading the way. We’ve successfully deployed vendor solutions and developed proprietary tools to allow us to do what we do best even better through a robust change management approach, starting with a global network of (Gen)AI \"Enablement Black Belts\". Join us to learn how we champion adoption to transform our work processes, and experiment with our (Gen)AI tools to discover how we amplify our impact.</li></ul>",
-        "relatedIndustries": [
-          ""
-        ],
-        "boothContacts": [
-          { "name": "Chris Goodchild", "role": "" },
-          { "name": "Lukas Haider", "role": "" },
-          { "name": "Scott Wilder", "role": "" }
-        ]
-      },
-      {
         "id": "pe03",
         "area": "pe",
         "number": "03",
@@ -1186,7 +1166,7 @@
         "title": "Nectry",
         "description": "Revolutionize enterprise solutions: AI-powered, rapid development.",
         "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
-        "hitbox": "",
+        "hitbox": "<path opacity=\"0.01\" d=\"M205.366 87.5038C205.781 85.7364 206 83.8938 206 82C206 80.3643 205.836 78.7668 205.525 77.223L205.652 68.9401L202.103 68.8854C197.819 62.3309 190.415 58 182 58C168.745 58 158 68.7452 158 82C158 95.2548 168.745 106 182 106C188.937 106 195.187 103.057 199.569 98.3503L205.197 98.4372L205.366 87.5038Z\" fill=\"#D9D9D9\" fill-opacity=\"0.5\"/>",
         "about": "Nectry, an MIT startup, is a next-gen no-code application development platform. It enables organizations to rapidly build enterprise software (10 X faster) while guaranteeing the application is efficient, reliable and scalable and meets the highest standards in security and compliance. With an AI-powered interface, users can effortlessly design custom applications: a conversational bot translates simple English into configurations of Nectry's functional components.",
         "relatedIndustries": [
           "Consumer Products & Retail",
@@ -1493,7 +1473,7 @@
         "area": "te",
         "number": "11",
         "color": "#322E81",
-        "type": "<path opacity=\"1\" d=\"M175.897 312.954L162.275 336.266L185.76 349.988L199.381 326.676L175.897 312.954Z\" fill=\"#21BF61\"/>        ",
+        "type": "",
         "title": "The Quantum Revolution",
         "description": "Create business value with Quantum Technologies.",
         "highlight": "<path opacity=\"1\" d=\"M175.897 312.954L162.275 336.266L185.76 349.988L199.381 326.676L175.897 312.954Z\" fill=\"#21BF61\"/>",

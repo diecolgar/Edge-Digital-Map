@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const booths = data.entries;
             const booth = booths.find(b => b.id === boothId);
 
+            const contentContainer = document.getElementById('dynamic-content-container');
+
             if (booth) {
                 const contentTitleText = document.getElementById('content-title-text');
                 const dynamicContentContainer = document.getElementById('dynamic-content-container');
@@ -49,6 +51,27 @@ document.addEventListener("DOMContentLoaded", function() {
                         ${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}
                     </div>
                 `;
+
+                const ids = ['te02.1', 'te02.2', 'te02.3', 'te02.4'];
+
+                if (ids.includes(boothId)) {
+                    const specialDiv = document.createElement('div');
+                    specialDiv.className = 'special-info';
+    
+                    // Crear y añadir los elementos <a>
+                    ids.forEach(id => {
+                        const link = document.createElement('a');
+                        link.textContent = id;
+                        link.href = `booth.html?id=${id}`; // Puedes ajustar el href según tus necesidades
+                        if (id === boothId) {
+                            link.classList.add('active');
+                        }
+                        specialDiv.appendChild(link);
+                    });
+    
+                    contentContainer.prepend(specialDiv);
+                }
+
 
                 if ((booth.type) === '') {
                     document.querySelector('.detail-booth-type').style.display = 'none'

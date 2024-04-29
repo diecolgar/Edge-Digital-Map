@@ -8,10 +8,12 @@
     gap: 0.25rem;
     width: auto;
     padding: 1rem;
+    padding-top: 0;
 }
 
 #content-container {
     padding: 1rem;
+    padding-top: 0;
 }
 
 .detail-booth-info {
@@ -89,3 +91,27 @@
     font-size: 0.85rem;
 }
 
+
+/* TE02 */
+
+.special-info {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.special-info > a {
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    background-color: #D4D4D4;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.special-info > .active {
+    background-color: #21BF61;
+}
