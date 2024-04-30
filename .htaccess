@@ -1,1 +1,14 @@
+# Asegúrate de que el módulo mod_rewrite está habilitado
 RewriteEngine On
+
+# No reescribir archivos o directorios existentes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Reescribir solicitudes a archivos HTML si existen
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+# Redireccionar para asegurar que no se acceda directamente a URLs con .html
+RewriteCond %{THE_REQUEST} \s/+(.*?).html[\s?]
+RewriteRule ^ /%1 [R=301,L,QSA]

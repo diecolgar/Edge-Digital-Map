@@ -48,9 +48,9 @@
   
   .journeysSeparator {
     height: 1px;
-    width: 90%;
+    width: auto;
     background-color: #DFD7CC;
-    margin: auto;
+    margin: 0 1rem;
   }
   
   .journeysDescription {

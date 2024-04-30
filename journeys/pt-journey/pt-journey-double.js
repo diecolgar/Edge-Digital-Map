@@ -94,7 +94,7 @@ const industryMappings = {
   "Travel, Cities & Infrastructure": "pt-journey-double.html?pt=travel"
 };
 
-function appendBooth(booth, container, isInteractive) {
+function appendBooth(booth, container, isInteractive, isColored) {
   let boothDiv = document.createElement('div');
   boothDiv.className = 'booth-container' + (isInteractive ? ' highlight-class' : '');
 
@@ -110,16 +110,16 @@ function appendBooth(booth, container, isInteractive) {
     <div class="details-label">Related Industries</div>
     <div class="details-industries">
       ${booth.relatedIndustries.map(industry => `
-        <a href="${industryMappings[industry] || 'pt-journey.html'}" class="details-industry">
+        <a href="${industryMappings[industry] || 'pt-journey-single.html'}" class="details-industry">
           ${industry}
         </a>`).join('')}
     </div>
     <div class="details-label">Booth Contacts</div>
     <div class="path-booth-contacts">
-      <div class="contact">${booth.boothContacts.map(contact => contact.name).join(', ')}</div>
+      <div class="contact">${booth.boothContacts.map(contact => `${contact.name}${contact.email !== '' ? ' _ ' + contact.email : ''}`).join(', ')}</div>
     </div>` : '';
 
-  let boothNumberHTML = isInteractive ? `<div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>` : '';
+  let boothNumberHTML = isColored ? `<div class="path-booth-number" style="background-color: ${booth.color}">${booth.number}</div>` : `<div class="path-booth-number" style="background-color: white; color: ${booth.color}">${booth.number}</div>`;
 
   boothDiv.innerHTML = `
     <div class="path-booth-preview" ${isInteractive ? 'onclick="toggleDetails(this)"' : ''}>
@@ -154,14 +154,14 @@ function displayNonSelectableBooths(booths) {
           return;
       }
       let boothsContainer = areaContainer.querySelector('.booths-container');
-      appendBooth(booth, boothsContainer, false); // Utiliza el formato no interactivo para todos
+      appendBooth(booth, boothsContainer, true, false); // Utiliza el formato no interactivo para todos
   });
 }
 
 function displayHighlightBooths(booths) {
   const highlightContainer = document.getElementById('highlights');
   booths.forEach(booth => {
-      appendBooth(booth, highlightContainer, true); // Interactivo
+      appendBooth(booth, highlightContainer, true, true); // Interactivo
   });
 }
 

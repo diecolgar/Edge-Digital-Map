@@ -118,13 +118,13 @@ document.addEventListener('DOMContentLoaded', function() {
               <div class="details-label">Related Industries</div>
               <div class="details-industries">
               ${booth.relatedIndustries.map(industry => `
-                <a href="${industryMappings[industry] || 'pt-journey.html'}" class="details-industry">
+                <a href="${industryMappings[industry] || 'pt-journey-single.html'}" class="details-industry">
                   ${industry}
                 </a>`).join('')}
             </div>
               <div class="details-label">Booth Contacts</div>
               <div class="path-booth-contacts">
-                  <div class="contact">${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}</div>
+                  <div class="contact">${booth.boothContacts.map(contact => `${contact.name}${contact.email !== '' ? ' _ ' + contact.email : ''}`).join(', ')}</div>
               </div>
           </div>
       `;

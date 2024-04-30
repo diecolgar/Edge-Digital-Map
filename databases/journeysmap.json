@@ -291,7 +291,6 @@
         {"id": "cs09", "type": "highlight"},
         {"id": "cs01", "type": "nonselectable"},
         {"id": "cs02", "type": "nonselectable"},
-        {"id": "cs04", "type": "nonselectable"},
         {"id": "cs05", "type": "nonselectable"},
         {"id": "cs10", "type": "nonselectable"},
         {"id": "cs11", "type": "nonselectable"},

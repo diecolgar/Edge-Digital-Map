@@ -42,14 +42,16 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="detail-booth-label">Related Industries</div>
                     <div class="detail-booth-industries">
                     ${booth.relatedIndustries.map(industry => `
-                      <a href="../../../journeys/${industryMappings[industry] || 'pt-journey.html'}" class="detail-booth-industry">
+                      <a href="../../../journeys/${industryMappings[industry] || 'pt-journey-single.html'}" class="detail-booth-industry">
                         ${industry}
                       </a>`).join('')}
                   </div>
                     <div class="detail-booth-label">Contact</div>
                     <div class="detail-booth-contacts">
-                        ${booth.boothContacts.map(contact => `${contact.name}`).join(', ')}
+                        ${booth.boothContacts.map(contact => `${contact.name}${contact.email !== '' ? ' _ ' + contact.email : ''}`).join(', ')}
                     </div>
+                
+                
                 `;
 
                 const ids = ['te02.1', 'te02.2', 'te02.3', 'te02.4'];
@@ -62,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     ids.forEach(id => {
                         const link = document.createElement('a');
                         link.textContent = id;
-                        link.href = `booth.html?id=${id}`; // Puedes ajustar el href según tus necesidades
+                        link.href = `location.html?id=${id}`; // Puedes ajustar el href según tus necesidades
                         if (id === boothId) {
                             link.classList.add('active');
                         }
@@ -81,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (booth.area) {
                     imagen.src = `../../../assets/maps/nb_${booth.area.toLowerCase()}_opacity.png`;
                     namesMap.src = `../../../assets/maps/nb_${booth.area.toLowerCase()}_names.png`;
-                    mapLabel.setAttribute('href', `../nb-detail.html?nb=${booth.area}`); // Ajusta el href con la área del booth
+                    mapLabel.setAttribute('href', `../core-detail.html?nb=${booth.area}`); // Ajusta el href con la área del booth
                 }
 
                 // Estableciendo el highlight específico para este booth
@@ -92,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 booths.filter(b => b.area === booth.area).forEach(b => {
                     if (b.hitbox && b.id) { // Asegúrate de que cada booth tiene hitbox e ID
                         const anchor = document.createElementNS('http://www.w3.org/2000/svg', 'a');
-                        anchor.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', `booth.html?id=${b.id}`);
+                        anchor.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', `location.html?id=${b.id}`);
                         const pathElement = document.createElementNS('http://www.w3.org/2000/svg', 'path');
                         const hitboxElement = new DOMParser().parseFromString(b.hitbox, 'text/html').body.querySelector('path');
                         pathElement.setAttribute('d', hitboxElement.getAttribute('d'));
@@ -104,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
             } else {
                 contentTitleText.textContent = 'Booth no encontrado';
-                mapLabel.setAttribute('href', '../nb-detail.html'); // O cualquier URL predeterminada que desees
+                mapLabel.setAttribute('href', '../core-detail.html'); // O cualquier URL predeterminada que desees
             }
         })
         .catch(error => {

@@ -35,7 +35,7 @@ function displayBooths(booths) {
     booths.forEach(function(booth) {
         var boothLink = document.createElement('a');
         boothLink.className = 'booth-selector simple';
-        boothLink.href = `nb-detail/booth.html?id=${booth.id}`;
+        boothLink.href = `nb-detail/location.html?id=${booth.id}`;
 
         var id = document.createElement('div');
         id.className = 'booth-id';
@@ -98,9 +98,6 @@ function displayAuthors(authors) {
         time.className = 'author-time';
         time.textContent = author.time;
 
-        var svgPlaceholder = document.createElement('span');
-        svgPlaceholder.innerHTML = '<svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M6 9l6 6 6-6" stroke="#21BF61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-        time.appendChild(svgPlaceholder);
         timeTitleContainer.appendChild(time);
 
         var title = document.createElement('div');
@@ -112,22 +109,13 @@ function displayAuthors(authors) {
         var description = document.createElement('div');
         description.className = 'author-description';
         description.textContent = author.description;
-        description.style.display = 'none';
         authorElement.appendChild(description);
-
-        timeTitleContainer.addEventListener('click', function() {
-            description.style.display = (description.style.display === 'none' ? 'block' : 'none');
-            svgPlaceholder.querySelector('.arrow-icon').style.transform = (description.style.display === 'block' ? 'rotate(180deg)' : 'rotate(0deg)');
-        });
 
         var authorInfoContainer = document.createElement('div');
         authorInfoContainer.className = 'author-info';
 
-        // Crear un contenedor para las imágenes
         var imageContainer = document.createElement('div');
         imageContainer.className = 'author-image-container';
-
-        // Añadir cada imagen al contenedor de imágenes
         author.picture.forEach(function(pic) {
             var picture = document.createElement('img');
             picture.className = 'author-picture';
@@ -150,6 +138,7 @@ function displayAuthors(authors) {
         container.appendChild(separator);
     });
 }
+
 
 
 
@@ -219,8 +208,8 @@ function loadHitboxes(booths) {
     booths.forEach(function(booth) {
       if (booth.hitbox && booth.id) { // Asegurarse de que el booth tiene hitbox e ID
         var anchor = document.createElementNS('http://www.w3.org/2000/svg', 'a'); // Crear el elemento anchor
-        anchor.setAttribute('href', `nb-detail/booth.html?id=${booth.id}`); // Usar el ID del booth para construir la URL
-        anchor.setAttribute('xlink:href', `nb-detail/booth.html?id=${booth.id}`); // Para compatibilidad con navegadores más antiguos
+        anchor.setAttribute('href', `nb-detail/location.html?id=${booth.id}`); // Usar el ID del booth para construir la URL
+        anchor.setAttribute('xlink:href', `nb-detail/location.html?id=${booth.id}`); // Para compatibilidad con navegadores más antiguos
   
         var newElement = document.createElementNS('http://www.w3.org/2000/svg', 'path');
         // Extraer el atributo 'd' del hitbox HTML string usando DOMParser
