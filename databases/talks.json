@@ -15,18 +15,18 @@
       "picture": ["marc.jpeg"]
     },
     {
-      "title": "Game Changer",
+      "title": "Future of Customer-centric Innovation",
       "time": "2:15 PM",
-      "author": "Jean-Manuel Izaret",
-      "description": "How strategic pricing shapes businesses, markets, and society.",
-      "picture": ["jean.jpeg"]
+      "author": "Lauren Taylor",
+      "description": "Meeting consumer and company needs under an AI and sustainability imperative.",
+      "picture": ["lauren.png"]
     },
     {
       "title": "Planetary Boundaries",
       "time": "2:30 PM",
-      "author": "Charlotte Bande (Quantis)",
+      "author": "Charlotte Bande & John Willard",
       "description": "Driving meaningful change that results in net-positive outcomes for businesses and the planet.",
-      "picture": ["charlotte.jpeg"]
+      "picture": ["charlotte.jpeg", "john.png"]
     },
     {
       "title": "Reigniting Creativity in Business",
@@ -50,11 +50,11 @@
       "picture": ["mark.jpeg"]
     },
     {
-      "title": "Future of Customer-centric Innovation",
+      "title": "Game Changer",
       "time": "4:00 PM",
-      "author": "Lauren Taylor & Lara Koslow",
-      "description": "Meeting consumer and company needs under an AI and sustainability imperative.",
-      "picture": ["lauren.png", "lara.png"]
+      "author": "Jean-Manuel Izaret",
+      "description": "How strategic pricing shapes businesses, markets, and society.",
+      "picture": ["jean.jpeg"]
     }
   ]
 }
