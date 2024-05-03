@@ -8,7 +8,8 @@
 
 .pathThemesArea {
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.85rem;
     margin-bottom: 0.5rem;
     margin-top: 1rem;
 }
@@ -24,7 +25,6 @@
 .booth-container {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
     width: auto;
     padding: 0.25rem 0;
 }
@@ -90,6 +90,7 @@
 .details-description {
     font-style: italic;
     font-size: 0.85rem;
+    margin-top: 1rem;
 }
 
 .details-about {

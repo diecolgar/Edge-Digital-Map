@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   <path d="M5 7.76367L10 12.7637L15 7.76367" stroke="#21BF61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
           </div>
-          <div class="path-booth-details" style="display: none;">
+          <div class="path-booth-details achordeonDescription">
               <div class="details-description">${booth.description}</div>
               <div class="details-label">About</div>
               <div class="details-about">${booth.about}</div>
@@ -139,8 +139,43 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function toggleDetails(element) {
     var details = element.nextElementSibling;
-    var isExpanded = details.style.display === 'block';
-    document.querySelectorAll('.path-booth-details').forEach(detail => detail.style.display = 'none');
-    details.style.display = isExpanded ? 'none' : 'block';
+    var arrow = element.querySelector('.arrow-icon');
+    var isExpanded = details.classList.contains('active');
+  
+    // Obtiene todos los elementos de detalles
+    const allDetails = Array.from(document.querySelectorAll('.path-booth-details'));
+    const currentIndex = allDetails.indexOf(details);
+  
+    // Cerrar todos los detalles y restablecer las flechas, y comprobar si hay activos arriba
+    let previousActiveHeight = 0; // Inicializar la altura del elemento previo activo
+    let isActiveAbove = false;
+    allDetails.forEach((detail, index) => {
+        let otherArrow = detail.previousElementSibling.querySelector('.arrow-icon');
+        if (index < currentIndex) {
+            if (detail.classList.contains('active')) {
+                isActiveAbove = true;
+                previousActiveHeight = detail.scrollHeight; // Captura la altura del último elemento activo por encima
+            }
+        }
+        detail.classList.remove('active');
+        otherArrow.style.transform = 'rotate(0deg)';
+    });
+  
+    // Toggle el elemento actual basado en su estado actual
+    if (isExpanded) {
+        details.classList.remove('active');
+        arrow.style.transform = 'rotate(0deg)';
+    } else {
+        details.classList.add('active');
+        arrow.style.transform = 'rotate(180deg)';
+  
+        // Ajustar el scroll solo si hay un elemento activo arriba
+        // setTimeout(() => { // Usar setTimeout para asegurar que la animación de transición haya iniciado
+        //     if (isActiveAbove) {
+        //         window.scrollBy({ top: -previousActiveHeight, behavior: 'smooth' });
+        //     }
+        // }, 100); // Ajustar el tiempo según la duración de tu animación
+    }
   }
+  
   

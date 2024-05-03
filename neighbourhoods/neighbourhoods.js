@@ -1,34 +1,40 @@
 //#region accordion logic
 
 function toggleDescription(event) {
-    // event.preventDefault();
-  
-    // Encuentra la descripción y la flecha del elemento actual
-    var currentDescription = this.querySelector('.keyThemesDescription');
-    var currentArrow = this.querySelector('.keyThemesPreview > svg');
-    var isCurrentlyOpen = currentDescription.style.display === 'flex';
+    event.preventDefault();
+    
+    var keyThemeElement = this.parentNode; // Referencia al elemento padre .keyThemesElement
+    var currentDescription = keyThemeElement.querySelector('.keyThemesDescription');
+    var currentArrow = this.querySelector('svg'); // Referencia al svg dentro de .keyThemesPreview
+    var isCurrentlyOpen = keyThemeElement.classList.contains('active');
 
-    // Cierra todos los elementos
+    // Cierra todos los elementos excepto el actual (permite que el mismo toggle cierre si está abierto)
     document.querySelectorAll('.keyThemesElement').forEach(function(element) {
-        var description = element.querySelector('.keyThemesDescription');
-        var arrow = element.querySelector('.keyThemesPreview > svg');
-
-        description.style.display = 'none'; // Cierra la descripción
-        arrow.style.transform = 'rotate(0deg)'; // Reinicia la rotación de la flecha
+        if (element !== keyThemeElement) {
+            element.classList.remove('active');
+            var arrow = element.querySelector('.keyThemesPreview > svg');
+            if (arrow) { // Verifica si la flecha existe antes de intentar cambiar su estilo
+                arrow.style.transform = 'rotate(0deg)';
+            }
+        }
     });
 
-    // Si la descripción actual estaba cerrada, la abre y rota la flecha
-    // Si estaba abierta y se clickea, se cierra
+    // Si el elemento actual no estaba abierto, ábrelo
     if (!isCurrentlyOpen) {
-        currentDescription.style.display = 'flex';
+        keyThemeElement.classList.add('active');
         currentArrow.style.transform = 'rotate(180deg)';
+    } else {  // Si estaba abierto y se clickea, ciérralo
+        keyThemeElement.classList.remove('active');
+        currentArrow.style.transform = 'rotate(0deg)';
     }
 }
 
-// Agrega el listener a todos los .keyThemesElement
-var elements = document.querySelectorAll('.keyThemesElement');
-elements.forEach(function(element) {
-    element.addEventListener('click', toggleDescription);
+// Agrega el listener a todos los .keyThemesPreview
+var previews = document.querySelectorAll('.keyThemesPreview');
+previews.forEach(function(preview) {
+    preview.addEventListener('click', toggleDescription);
 });
+
+
 
 //#endregion

@@ -7,7 +7,8 @@
 
 .pathThemesArea {
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.85rem;
     margin-bottom: 0.5rem;
 }
 
@@ -22,7 +23,6 @@
 .booth-container {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
     width: auto;
     padding: 1rem 0;
 }
@@ -59,14 +59,14 @@
 }
 
 .path-booth-id {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
     color: #B1B1B1;
     font-weight: 700;
 }
 
 .path-booth-title {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #323232;
     font-weight: 700;
 }
@@ -88,6 +88,8 @@
 .details-description {
     font-style: italic;
     font-size: 0.85rem;
+    margin-top: 1rem;
+
 }
 
 .details-about {

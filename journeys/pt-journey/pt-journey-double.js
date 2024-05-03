@@ -130,7 +130,7 @@ function appendBooth(booth, container, isInteractive, isColored) {
       </div>
       ${arrowSVG}
     </div>
-    <div class="path-booth-details" style="display: none;">
+    <div class="path-booth-details achordeonDescription">
       ${detailsHTML}
     </div>
   `;
@@ -175,25 +175,46 @@ function updateJourneyTitle(title) {
 }
 
 
-
 function toggleDetails(element) {
   var details = element.nextElementSibling;
   var arrow = element.querySelector('.arrow-icon');
-  var isExpanded = details.style.display === 'block';
+  var isExpanded = details.classList.contains('active');
 
-  document.querySelectorAll('.path-booth-details').forEach(detail => {
-    detail.style.display = 'none';
-    let otherArrow = detail.previousElementSibling.querySelector('.arrow-icon');
-    if (otherArrow) {
-      otherArrow.style.transform = 'rotate(0deg)'; // Asegúrate de que todas las otras flechas se restablezcan
-    }
+  // Obtiene todos los elementos de detalles
+  const allDetails = Array.from(document.querySelectorAll('.path-booth-details'));
+  const currentIndex = allDetails.indexOf(details);
+
+  // Cerrar todos los detalles y restablecer las flechas, y comprobar si hay activos arriba
+  let previousActiveHeight = 0; // Inicializar la altura del elemento previo activo
+  let isActiveAbove = false;
+  allDetails.forEach((detail, index) => {
+      let otherArrow = detail.previousElementSibling.querySelector('.arrow-icon');
+      if (index < currentIndex) {
+          if (detail.classList.contains('active')) {
+              isActiveAbove = true;
+              previousActiveHeight = detail.scrollHeight; // Captura la altura del último elemento activo por encima
+          }
+      }
+      detail.classList.remove('active');
+      otherArrow.style.transform = 'rotate(0deg)';
   });
 
-  details.style.display = isExpanded ? 'none' : 'block';
-  arrow.style.transform = isExpanded ? 'rotateX(0deg)' : 'rotateX(180deg)'; // Rota la flecha cuando se expande
+  // Toggle el elemento actual basado en su estado actual
+  if (isExpanded) {
+      details.classList.remove('active');
+      arrow.style.transform = 'rotate(0deg)';
+  } else {
+      details.classList.add('active');
+      arrow.style.transform = 'rotate(180deg)';
+
+      // Ajustar el scroll solo si hay un elemento activo arriba
+      // setTimeout(() => { // Usar setTimeout para asegurar que la animación de transición haya iniciado
+      //     if (isActiveAbove) {
+      //         window.scrollBy({ top: -previousActiveHeight, behavior: 'smooth' });
+      //     }
+      // }, 100); // Ajustar el tiempo según la duración de tu animación
+  }
 }
-
-
 
 function showMapPopup() {
   var popup = document.getElementById('map-popup');

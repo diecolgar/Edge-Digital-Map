@@ -329,6 +329,33 @@ nav {
   }
 
 
+  /* Acordeon logic */
+
+  .achordeonDescription {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s , opacity 0.5s  0.5s, visibility 0s linear 0.5s; /* Retrasa la visibilidad y la opacidad */
+    opacity: 0;
+    visibility: hidden;
+    display: flex; /* Esto debería mantenerse para mantener la estructura interna */
+}
+
+.achordeonContainer.active .achordeonDescription {
+    max-height: 500px; /* Ajusta esto según el contenido máximo esperado */
+    opacity: 1;
+    visibility: visible;
+    transition: max-height 0.5s, opacity 0.5s, visibility 0s linear 0s; /* Sin retraso cuando se abre */
+}
+
+.achordeonDescription.active {
+  max-height: 500px; /* Ajusta esto según el contenido máximo esperado */
+  opacity: 1;
+  visibility: visible;
+  transition: max-height 0.5s, opacity 0.5s, visibility 0s linear 0s; /* Sin retraso cuando se abre */
+}
+
+
+
 
   @media screen and (min-width: 600px) {
     :root {
