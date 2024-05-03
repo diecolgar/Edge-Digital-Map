@@ -72,7 +72,7 @@
   font-size: 0.85rem;
   color: var(--Grey);
   font-style: italic;
-  margin-left: calc(24px + 1rem)
+  margin-top: 0.85rem;
 }
 
 .keyThemesDescriptionSubTitle {

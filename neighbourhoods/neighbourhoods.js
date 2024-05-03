@@ -22,10 +22,10 @@ function toggleDescription(event) {
     // Si el elemento actual no estaba abierto, ábrelo
     if (!isCurrentlyOpen) {
         keyThemeElement.classList.add('active');
-        currentArrow.style.transform = 'rotate(180deg)';
+        currentArrow.style.transform = 'rotateX(180deg)';
     } else {  // Si estaba abierto y se clickea, ciérralo
         keyThemeElement.classList.remove('active');
-        currentArrow.style.transform = 'rotate(0deg)';
+        currentArrow.style.transform = 'rotateX(0deg)';
     }
 }
 

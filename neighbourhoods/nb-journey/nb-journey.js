@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let previousActiveHeight = 0; // Inicializar la altura del elemento previo activo
     let isActiveAbove = false;
     allDetails.forEach((detail, index) => {
-        let otherArrow = detail.previousElementSibling.querySelector('.arrow-icon');
+        // let otherArrow = detail.previousElementSibling.querySelector('.arrow-icon');
         if (index < currentIndex) {
             if (detail.classList.contains('active')) {
                 isActiveAbove = true;
@@ -158,16 +158,16 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         detail.classList.remove('active');
-        otherArrow.style.transform = 'rotate(0deg)';
+        // otherArrow.style.transform = 'rotate(0deg)';
     });
   
     // Toggle el elemento actual basado en su estado actual
     if (isExpanded) {
         details.classList.remove('active');
-        arrow.style.transform = 'rotate(0deg)';
+        arrow.style.transform = 'rotateX(0deg)';
     } else {
         details.classList.add('active');
-        arrow.style.transform = 'rotate(180deg)';
+        arrow.style.transform = 'rotateX(180deg)';
   
         // Ajustar el scroll solo si hay un elemento activo arriba
         // setTimeout(() => { // Usar setTimeout para asegurar que la animación de transición haya iniciado

@@ -894,9 +894,15 @@
         "hitbox": "<path opacity=\"0.01\" d=\"M98.8986 227.696L41.3086 255.475L54.6399 283.113L112.23 255.335L98.8986 227.696Z\" fill=\"white\"/>        ",
         "about": "Step into the future with our interactive booth! Explore the cutting-edge of AI enabled by Agile & Platform Operating Model for large-scale transformation. Get hands-on with our resolution room feat. interactive demos that bring governance & measurement to life. Dive into the world of Objectives & Key Results (OKRs) with our GPT-powered tools. Learn from BOSCH’s transformation triumph to see how you can revolutionize your op model. Your journey to speed & efficiency at scale starts here!",
         "relatedIndustries": [
+          "Consumer Products & Retail",
+          "Energy",
           "Financial Institutions",
+          "Health Care",
+          "Industrial Goods",
           "Insurance",
-          "Tech, Media & Telecom"
+          "Public Sector",
+          "Tech, Media & Telecom",
+          "Travel, Cities & Infrastructure"
         ],
         "boothContacts": [
           { "name": "Jaap Backx", "email": "" },

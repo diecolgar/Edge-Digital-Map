@@ -202,10 +202,10 @@ function toggleDetails(element) {
   // Toggle el elemento actual basado en su estado actual
   if (isExpanded) {
       details.classList.remove('active');
-      arrow.style.transform = 'rotate(0deg)';
+      arrow.style.transform = 'rotateX(0deg)';
   } else {
       details.classList.add('active');
-      arrow.style.transform = 'rotate(180deg)';
+      arrow.style.transform = 'rotateX(180deg)';
 
       // Ajustar el scroll solo si hay un elemento activo arriba
       // setTimeout(() => { // Usar setTimeout para asegurar que la animación de transición haya iniciado
