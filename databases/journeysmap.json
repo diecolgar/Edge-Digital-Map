@@ -410,7 +410,6 @@
         {"id": "cs10", "type": "nonselectable"},
         {"id": "cs11", "type": "nonselectable"},
         {"id": "cs12", "type": "nonselectable"},
-        {"id": "cs13", "type": "nonselectable"},
         {"id": "cx02", "type": "nonselectable"},
         {"id": "cx04", "type": "nonselectable"},
         {"id": "op01", "type": "nonselectable"},

@@ -81,6 +81,8 @@ body {
   gap: 1.5rem;
   padding: 1.5rem 2rem 1.5rem 2rem;
   z-index: 10;
+  max-width: 1080px;
+  margin: auto;
 }
 
 #contentTitle {
@@ -96,7 +98,7 @@ body {
   flex-direction: column;
   align-items: left;
   font-size: 1rem;
-  max-width: 1200px;
+  max-width: 1080px;
 }
 
 #contentCTA {
@@ -127,6 +129,6 @@ body {
 }
 
 #homeVisual > img {
-  max-width: 1200px;
+  max-width: 1080px;
   width: 100vw;
 }
