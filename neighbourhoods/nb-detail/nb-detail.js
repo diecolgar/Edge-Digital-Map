@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (nbParam === "th") {
     loadAuthors(); // Carga la lista de autores si nbParam es igual a "th"
+    hideInstructions()
     }
 });
 
@@ -273,6 +274,10 @@ function cambiarSrcImagen() {
         var imagen = document.querySelector('#interactive-map'); 
         imagen.src = "../../assets/maps/nb_" + parametroNB + ".png"; 
     }
+}
+
+function hideInstructions() {
+    document.querySelector('#label-instructions').style.display = 'none'
 }
 
 window.onload = cambiarSrcImagen;
