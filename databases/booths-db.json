@@ -1205,32 +1205,6 @@
         "number": "02",
         "color": "#322E81",
         "type": "Startup",
-        "title": "Pienso (MIT CSAIL)",
-        "description": "Power Generative AI with the No-Code Language Model Management Platform",
-        "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
-        "hitbox": "",
-        "about": "As organizations struggle to navigate the opportunities presented by GenAI and Large Language Models, they are encountering constraints such as model reliability and accuracy, technical resource scarcity, data privacy concerns, and more. While there is massive potential, most solutions carry costs and risks that can outweigh the ROI. Learn how Pienso empowers nontechnical domain experts to build GenAI that is accurate, secure and cost-effective – all without writing a single line of code.",
-        "relatedIndustries": [
-          "Consumer Products & Retail",
-          "Energy",
-          "Financial Institutions",
-          "Health Care",
-          "Industrial Goods",
-          "Insurance",
-          "Public Sector",
-          "Tech, Media & Telecom",
-          "Travel, Cities & Infrastructure"
-        ],
-        "boothContacts": [
-          { "name": "Birago Jones", "email": "birago@pienso.com" }
-        ]
-      },
-      {
-        "id": "te02.3",
-        "area": "te",
-        "number": "02",
-        "color": "#322E81",
-        "type": "Startup",
         "title": "Preamble (MIT CSAIL)",
         "description": "Control Your AI Risk",
         "highlight": "<path opacity=\"1\" d=\"M179.104 68.5205L178.648 98.0176L205.846 98.4372L206.301 68.9401L179.104 68.5205Z\" fill=\"#21BF61\"/>        ",
@@ -1252,7 +1226,7 @@
         ]
       },
       {
-        "id": "te02.4",
+        "id": "te02.3",
         "area": "te",
         "number": "02",
         "color": "#322E81",

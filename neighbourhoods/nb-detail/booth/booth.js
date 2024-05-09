@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 
                 `;
 
-                const ids = ['te02.1', 'te02.2', 'te02.3', 'te02.4'];
+                const ids = ['te02.1', 'te02.2', 'te02.3'];
 
                 if (ids.includes(boothId)) {
                     const specialDiv = document.createElement('div');
